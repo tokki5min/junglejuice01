@@ -1,0 +1,25 @@
+{
+  "output_dir": "collected-prompts",
+  "limit_per_source": 50,
+  "headless": true,
+  "storage_state": "auth/midjourney-storage-state.json",
+  "save_html": false,
+  "timezone": "UTC",
+  "sources": [
+    {
+      "name": "top-today",
+      "url": "https://www.midjourney.com/explore?tab=top&time=today",
+      "wait_for_selector": "body"
+    },
+    {
+      "name": "top-week",
+      "url": "https://www.midjourney.com/explore?tab=top&time=week",
+      "wait_for_selector": "body"
+    },
+    {
+      "name": "top-month",
+      "url": "https://www.midjourney.com/explore?tab=top&time=month",
+      "wait_for_selector": "body"
+    }
+  ]
+}
