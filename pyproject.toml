@@ -1,0 +1,26 @@
+[project]
+name = "midjourney-prompt-collector"
+version = "0.1.0"
+description = "Collect and organize Midjourney-style trending prompts on a daily schedule."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "playwright>=1.45.0",
+]
+
+[project.scripts]
+mj-prompt-collector = "mj_prompt_collector.cli:main"
+
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
