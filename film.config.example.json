@@ -1,0 +1,31 @@
+{
+  "project": "biome",
+  "output_dir": "renders/biome",
+  "storyboard_path": "renders/biome/storyboard.json",
+  "fps_capture": 4,
+  "validation_batch": 6,
+  "planner_model": "claude-sonnet-4-6",
+  "image_engine": {
+    "name": "gpt-image-2",
+    "provider": "openai-image",
+    "model": "gpt-image-2",
+    "concurrency": 4,
+    "params": { "size": "1536x1024", "input_fidelity": "high" }
+  },
+  "video_engines": [
+    {
+      "name": "kling",
+      "provider": "replicate-video",
+      "model": "kwaivgi/kling-v2.5",
+      "concurrency": 4,
+      "params": { "duration": 4 }
+    },
+    {
+      "name": "seedance",
+      "provider": "higgsfield-video",
+      "model": "seedance-2.0",
+      "concurrency": 8,
+      "params": { "resolution": "1080p", "duration": 4 }
+    }
+  ]
+}

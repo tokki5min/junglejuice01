@@ -10,6 +10,7 @@ dependencies = [
 
 [project.scripts]
 mj-prompt-collector = "mj_prompt_collector.cli:main"
+ai-film = "ai_film_pipeline.cli:main"
 
 [build-system]
 requires = ["setuptools>=69", "wheel"]

@@ -199,8 +199,82 @@ systemctl --user daemon-reload
 systemctl --user enable --now mj-prompt-collector.timer
 ```
 
+---
+
+# AI 영상 반자동화 파이프라인 (ai-film)
+
+레퍼런스 분석 → 기획 → 이미지 생성 → 영상화 → 조립까지, AI 영상 광고 제작 흐름을
+단계별 모듈로 자동화하는 스캐폴드입니다. 설계 철학은 하나입니다 —
+**코드는 반복(동시성·폴링·후처리)을, 사람은 판단(어떤 컷이 좋은지)을.**
+
+> 모든 단계는 `--dry-run`을 지원합니다. API 키 없이 오프라인 스텁으로 전체 흐름을
+> 그대로 돌려볼 수 있어, 구조를 익히거나 테스트할 때 유용합니다.
+
+## 파이프라인 단계
+
+| 단계 | 명령 | 도구 | 자동화 |
+|------|------|------|--------|
+| STEP 1 레퍼런스 해부 | `reference` | yt-dlp · ffmpeg | fps=4(0.25초당 1프레임) 추출 |
+| STEP 2–3 기획·스토리보드 | `plan` | Claude API | 브랜드 브리프 + 30컷 스토리보드 생성 |
+| STEP 4–5 이미지 생성 | `image` | gpt-image-2 등 | 병렬 생성·폴링·크롭 + 검증 배치 게이트 |
+| STEP 6–7 영상화 | `video` | Kling · Seedance | 멀티엔진 병렬, 엔진별 동시성 한도 준수 |
+| 조립 | `assemble` | ffmpeg | 클립 연결 + 엔드카드 타이포 |
+
+## 설정
+
+`film.config.example.json`을 복사해 `film.config.json`을 만들고 엔진·동시성·출력
+경로를 조정합니다. API 키는 설정 파일이 아니라 환경변수로 읽습니다.
+
+```bash
+cp film.config.example.json film.config.json
+export ANTHROPIC_API_KEY=...      # 기획(plan)
+export OPENAI_API_KEY=...         # 이미지(image)
+export REPLICATE_API_TOKEN=...    # 영상(video, Kling)
+export HIGGSFIELD_API_KEY=...     # 영상(video, Seedance)
+```
+
+## 권장 사용 흐름 — 단계마다 검수
+
+핵심은 **검증 게이트**입니다. 대표 컷 몇 장만 먼저 뽑아 룩을 확인하고, 통과하면
+나머지를 일괄 생성합니다 (나쁜 프롬프트의 비용을 30장이 아니라 6장으로).
+
+```bash
+# 1. 레퍼런스에서 프레임 추출 → 사람이 편집 리듬·룩 분석
+ai-film reference "https://youtube.com/..."
+
+# 2. 스토리보드 생성 → storyboard.json을 사람이 직접 검토·수정
+ai-film plan --notes "빠른 컷, 35mm 그레인, 관능 구도" --shots 30
+
+# 3. 검증 배치(대표 6컷)만 먼저 → 사람이 OK 판단
+ai-film image --validate
+ai-film image            # OK면 전체 생성
+
+# 4. 멀티엔진 영상화 (BGM 없음 규칙 자동 적용, 백그라운드 가능)
+ai-film video
+
+# 5. 엔진별 최종본 조립 + 엔드카드
+ai-film assemble --engine seedance
+
+# 언제든 진행 상황 확인
+ai-film status
+```
+
+프롬프트가 충분히 신뢰되면 `ai-film run <url>`으로 전 단계를 한 번에 실행할 수
+있습니다. 키 없이 구조부터 보려면 모든 명령에 `--dry-run`을 붙이세요.
+
+## 확장 지점
+
+`src/ai_film_pipeline/providers.py`의 각 `_generate_real` 메서드가 실제 API 호출을
+연결하는 자리입니다. 동시성·폴링 로직은 `concurrency.py`에 공유 구현되어 있어,
+프로바이더는 "작업 시작"과 "완료 여부"만 알면 됩니다.
+
+---
+
 ## 테스트
 
 ```bash
 python -m pytest
 ```
+
+`tests/test_extraction.py`는 프롬프트 수집기를, `tests/test_pipeline.py`는 영상
+파이프라인(동시성·폴링·검증 배치·전체 dry-run)을 검증합니다.
