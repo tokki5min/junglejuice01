@@ -1,6 +1,6 @@
 ---
 name: action-anime-director
-description: 2D 애니메이션 액션 영상(무협·검술·격투·추격·초능력 배틀) 프롬프트를 설계·수리하는 액션 연출 전문 스킬. Seedance 2.5/2.0 중심, MiniMax H3·Wan·Kling에도 적용. Kōda(@aimikoda)의 공개 프롬프트 연구와 실제 제작 세션의 실패·수정 기록을 합쳐 만든 규칙집이다. "액션 씬", "싸움 장면", "검술", "무협", "전투", "추격전", "타격감", "속도감", "사쿠가", "임팩트 프레임", "칼이 다시 손에 생겨", "화살이 멈춰 보여", "구도가 밋밋해", "프레임 브레이크", "코다 스타일", "매치 온 액션", "컷이 바뀌면 동작이 끊겨", "액션이 따로 놀아" 같은 요청이나, 애니풍 액션 영상 프롬프트를 새로 짜거나 고칠 때 반드시 사용한다. 최종 문장 규칙은 seedance-clean, 12원칙 모션 블록은 anime-motion-style, 캐릭터 정지 이미지는 midjourney-v8-compiler와 연계한다. 실사 액션은 action-live-director를 쓴다.
+description: 2D 애니메이션 액션 영상(무협·검술·격투·추격·초능력 배틀) 프롬프트를 설계·수리하는 액션 연출 전문 스킬. Seedance 2.5/2.0 중심, MiniMax H3·Wan·Kling에도 적용. Kōda(@aimikoda)의 공개 프롬프트 연구와 실제 제작 세션의 실패·수정 기록을 합쳐 만든 규칙집이다. "액션 씬", "싸움 장면", "검술", "무협", "전투", "추격전", "타격감", "속도감", "사쿠가", "임팩트 프레임", "칼이 다시 손에 생겨", "화살이 멈춰 보여", "구도가 밋밋해", "프레임 브레이크", "코다 스타일", "매치 온 액션", "컷이 바뀌면 동작이 끊겨", "액션이 따로 놀아", "코다 미드저니", "캐릭터 시트", "영상에 맞춰 이미지" 같은 요청이나, 애니풍 액션 영상 프롬프트를 새로 짜거나 고칠 때 반드시 사용한다. 최종 문장 규칙은 seedance-clean, 12원칙 모션 블록은 anime-motion-style, 캐릭터 정지 이미지는 midjourney-v8-compiler와 연계한다. 실사 액션은 action-live-director를 쓴다.
 ---
 
 # Action Anime Director
@@ -16,6 +16,7 @@ description: 2D 애니메이션 액션 영상(무협·검술·격투·추격·�
 | 타격 하나를 설계할 때 | `references/action-impact-taxonomy.md` (8대 액션 그룹, 애니/실사 문구 매핑) |
 | 샷을 나눠 동작을 이을 때 | `references/match-on-action.md` (방향·속도·동작 단계) |
 | 액션 문구가 필요할 때 | `references/koda-phrasebook.md` (검증된 원문 문구 사전) |
+| 영상에 맞춰 캐릭터·키프레임 이미지를 뽑을 때 | `references/koda-image-library.md` (코다의 Midjourney·캐릭터 시트 프롬프트 + 이미지 링크, 자동 생성) |
 | 완성 예시를 보고 싶을 때 | `references/koda-examples.md` |
 | 결과물이 이상할 때 | `references/session-lessons.md` (실제 실패 → 수정 기록) |
 | 연구 이력/다음 연구 | `references/research-log.md` |
@@ -101,6 +102,18 @@ LOCKS            무기·손·인원 수·의상 상태·씬 간 연속성. 각 
 - **속도를 부재로 표현**: `the camera catches only fragments, impacts and consequences, while she is already somewhere else.`
 - **잔상 되감기 / 충전 후 방출 / 즉발 빔** 문구는 phrasebook 참조.
 - **긴 단편 파이프라인(코다)**: 전체 이야기를 30초 480p로 먼저 테스트 → 프레임 캡처로 캐릭터 시트·빈 배경 플레이트 → 3개 프롬프트로 분할 → 깨진 10초만 재생성 → 이전 결과 프레임을 다음 구간 레퍼런스로.
+
+## 4-1. 영상용 이미지 준비 (캐릭터 레퍼런스·첫 프레임)
+
+영상 품질은 레퍼런스 이미지 품질을 따라간다(코다: "high-quality references → high-quality results"). 순서는 이렇다.
+1. **스타일 고르기:** `koda-image-library.md`에서 원하는 그림체의 항목을 찾는다. 이미지 링크를 보고, 그 항목의 `--sref`/`--profile` 조합과 stylize 값을 가져온다. 상단의 자주 쓰는 코드 목록도 참고한다.
+2. **캐릭터 이미지:** Midjourney로 뽑는다. 템플릿은 `full body character design, mid-air action pose, angular painterly character concept art, bold silhouette design, ...`이고, 비율은 1:2 또는 2:3, 배경은 밝은 단색이다. 컴파일 규칙은 midjourney-v8-compiler를 따른다.
+3. **캐릭터 시트:** 여러 각도가 필요하면 시트를 만든다. 라이브러리의 시트 프롬프트(Seedream 레이아웃: 오른쪽 25% 클로즈업, 왼쪽 10% 표정 4개, 가운데 65% 전신 정면·뒤·옆)를 기반으로 쓴다. 영상 프롬프트에는 `all views are one person, ignore sheet/background`를 넣는다.
+4. **첫 프레임:** 영상 비율(예: 21:9)과 같은 비율로 뽑는다. 세로 캐릭터 이미지는 레퍼런스 전용으로만 쓴다.
+5. **장면별 레퍼런스:** 캐릭터 크기가 흔들리면, 여러 캐릭터를 한 장에 넣기보다 장면별 레퍼런스 프레임을 따로 만든다. 앞서 생성한 영상의 프레임을 다음 구간 레퍼런스로 쓰는 것도 좋다.
+6. **무기·의상 상태:** 무기를 잃는 장면처럼 상태가 바뀌는 장면에는, 그 상태에 맞는 레퍼런스(예: 무기 없는 버전)를 따로 뽑는다.
+
+라이브러리 갱신: `python3 -I scripts/koda_scrape.py <posts.json> 5` 다음에 `python3 -I scripts/koda_library.py <posts.json> library`를 실행한다. `--download`를 붙이면 이미지를 `library/images/`에 저장한다. 이 폴더는 git에 올리지 않는다(개인 참고용).
 
 ## 5. 결과 진단표
 
