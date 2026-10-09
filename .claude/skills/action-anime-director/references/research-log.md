@@ -24,3 +24,8 @@
 2. 마지막 로그 날짜 이후의 프롬프트 스레드만 골라 새 문구와 기법을 추출한다.
 3. 새로 나온 것만 `koda-phrasebook.md`에 추가한다. 겹치는 내용은 넣지 않는다.
 4. 이 로그에 날짜, 범위, 발견 내용을 3~6줄로 남긴다.
+
+## 2026-10-09 — 액션 연출 분류 + 매치 온 액션 (Threads @byulmiso, 사용자 제공)
+- 8대 액션 그룹(TEMPORAL, IMPACT, KINETIC, MOTION, CAMERA, VISUAL, EDITORIAL, AFTERMATH)과 교차 관점 2개(애니 과장, 리듬/음악)를 `action-impact-taxonomy.md`로 정리했다. 그룹마다 애니용·실사용 문구를 매핑했다.
+- 매치 온 액션은 방향·속도·동작 단계 세 가지를 맞추는 것이 핵심이다. "뻗기 시작하는 샷"과 "이어서 타격하는 샷"을 처음부터 나눠 설계한다. 음악 비트 위에서 일부러 방향을 뒤집는 예외도 기록했다. 내용은 `match-on-action.md`에 있다.
+- 실사 자매 스킬 `action-live-director`를 새로 만들었다. 두 스킬은 taxonomy와 match-on-action 파일을 공유한다.

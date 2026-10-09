@@ -1,6 +1,6 @@
 ---
 name: action-anime-director
-description: 2D 애니메이션 액션 영상(무협·검술·격투·추격·초능력 배틀) 프롬프트를 설계·수리하는 액션 연출 전문 스킬. Seedance 2.5/2.0 중심, MiniMax H3·Wan·Kling에도 적용. Kōda(@aimikoda)의 공개 프롬프트 연구와 실제 제작 세션의 실패·수정 기록을 합쳐 만든 규칙집이다. "액션 씬", "싸움 장면", "검술", "무협", "전투", "추격전", "타격감", "속도감", "사쿠가", "임팩트 프레임", "칼이 다시 손에 생겨", "화살이 멈춰 보여", "구도가 밋밋해", "프레임 브레이크", "코다 스타일" 같은 요청이나, 애니풍 액션 영상 프롬프트를 새로 짜거나 고칠 때 반드시 사용한다. 최종 문장 규칙은 seedance-clean, 12원칙 모션 블록은 anime-motion-style, 캐릭터 정지 이미지는 midjourney-v8-compiler와 연계한다.
+description: 2D 애니메이션 액션 영상(무협·검술·격투·추격·초능력 배틀) 프롬프트를 설계·수리하는 액션 연출 전문 스킬. Seedance 2.5/2.0 중심, MiniMax H3·Wan·Kling에도 적용. Kōda(@aimikoda)의 공개 프롬프트 연구와 실제 제작 세션의 실패·수정 기록을 합쳐 만든 규칙집이다. "액션 씬", "싸움 장면", "검술", "무협", "전투", "추격전", "타격감", "속도감", "사쿠가", "임팩트 프레임", "칼이 다시 손에 생겨", "화살이 멈춰 보여", "구도가 밋밋해", "프레임 브레이크", "코다 스타일", "매치 온 액션", "컷이 바뀌면 동작이 끊겨", "액션이 따로 놀아" 같은 요청이나, 애니풍 액션 영상 프롬프트를 새로 짜거나 고칠 때 반드시 사용한다. 최종 문장 규칙은 seedance-clean, 12원칙 모션 블록은 anime-motion-style, 캐릭터 정지 이미지는 midjourney-v8-compiler와 연계한다. 실사 액션은 action-live-director를 쓴다.
 ---
 
 # Action Anime Director
@@ -13,6 +13,8 @@ description: 2D 애니메이션 액션 영상(무협·검술·격투·추격·�
 
 | 상황 | 읽을 파일 |
 |---|---|
+| 타격 하나를 설계할 때 | `references/action-impact-taxonomy.md` (8대 액션 그룹, 애니/실사 문구 매핑) |
+| 샷을 나눠 동작을 이을 때 | `references/match-on-action.md` (방향·속도·동작 단계) |
 | 액션 문구가 필요할 때 | `references/koda-phrasebook.md` (검증된 원문 문구 사전) |
 | 완성 예시를 보고 싶을 때 | `references/koda-examples.md` |
 | 결과물이 이상할 때 | `references/session-lessons.md` (실제 실패 → 수정 기록) |
@@ -21,10 +23,12 @@ description: 2D 애니메이션 액션 영상(무협·검술·격투·추격·�
 ## 1. 작업 순서
 
 1. **싸움의 논리부터.** 장면마다 "습관 → 미끼 → 역전" 같은 전술 한 줄을 정한다. 예: *A가 계속 왼팔 아래로 빠져나가 뒤를 친다 → B가 그 습관을 미끼로 두 번째 칼로 출구를 막는다.* 이게 없으면 그냥 칼 휘두르는 영상이 된다.
-2. **분량 예산.** 길이에 비해 내용이 많으면 Seedance 2.5는 장면을 **빨리감기처럼 압축**한다(코다 실측). 3초 = 핵심 동작 1개 + 결과 1개. 30초 = 5~6샷이 적정.
-3. **레퍼런스 결속 → 규칙 → 타임라인 → 룩 → 사운드 → 고정** 순서로 쓴다(§2).
-4. **4,000자 이내**로 맞춘다(API/MCP 경로 한도). 줄일 땐 배경 묘사부터, 동작·카메라·고정은 마지막까지 남긴다.
-5. 생성 후 §5 진단표로 실패 레이어를 찾고 **문장 하나만** 고쳐 재생성한다.
+2. **타격 설계.** 핵심 타격마다 8대 그룹 중 최소 3개를 겹친다. 기본은 KINETIC(체중 이동) + CAMERA(렌즈 반응) + AFTERMATH(여운)이다. TEMPORAL/IMPACT/VISUAL은 씬당 1~2회만 쓴다.
+3. **컷 설계.** 긴 동작은 매치 온 액션으로 쪼갠다. 컷 지점에서 방향·속도·동작 단계가 이어지게 한다.
+4. **분량 예산.** 길이에 비해 내용이 많으면 Seedance 2.5는 장면을 **빨리감기처럼 압축**한다(코다 실측). 3초 = 핵심 동작 1개 + 결과 1개. 30초 = 5~6샷이 적정.
+5. **레퍼런스 결속 → 규칙 → 타임라인 → 룩 → 사운드 → 고정** 순서로 쓴다(§2).
+6. **4,000자 이내**로 맞춘다(API/MCP 경로 한도). 줄일 땐 배경 묘사부터, 동작·카메라·고정은 마지막까지 남긴다.
+7. 생성 후 §5 진단표로 실패 레이어를 찾고 **문장 하나만** 고쳐 재생성한다.
 
 ## 2. 프롬프트 골격 (코다식 + 세션 검증)
 
@@ -68,6 +72,12 @@ LOCKS            무기·손·인원 수·의상 상태·씬 간 연속성. 각 
 - 정면 구도 금지 습관: 매 샷 `horizon tilted N degrees` + 전경 레이어 + 오프센터. 앵글은 샷마다 바꾼다(로우·하이·사이드·탑다운·어깨너머).
 - 클로즈업은 짧은 인서트, 항상 와이드로 복귀: `close-ups are brief inserts returning wide`.
 
+**편집 (매치 온 액션)**
+- 긴 동작은 컷으로 쪼개되 동작은 끊지 않는다: `2.0s MATCH CUT ON ACTION — the swing is half-way and still travelling screen-right at the cut.` 다음 샷: `The same swing continues from the half-way point at the same speed, still travelling screen-right.`
+- 세 가지를 맞춘다. 방향(화면 기준), 속도(한쪽만 느려지지 않게), 동작 단계(반복하거나 건너뛰지 않게).
+- 따로 생성해 붙일 때는 앞 샷을 `End mid-[action]`으로 끝내고, 뒤 샷을 `Start mid-[action]`으로 시작한다. 앞뒤 여유를 두고 생성한다.
+- 예외: 음악 비트 위에서 일부러 방향을 뒤집는다. 한 씬에 한 번만 쓴다.
+
 **연속성 (가장 자주 깨지는 곳)**
 - 무기 회계: `Exactly N swords; hilts stay in their owning hands. No dropped, merged, duplicated or floating weapons.`
 - 무기를 잃은 뒤에는 **매 샷 손 상태를 다시 쓰고** 무기의 위치를 추적한다: `Both hands empty ... her sword is a tiny glint still spinning high in the sky.`
@@ -97,6 +107,10 @@ LOCKS            무기·손·인원 수·의상 상태·씬 간 연속성. 각 
 | 증상 | 원인 | 한 문장 수정 |
 |---|---|---|
 | 빨리감기처럼 보임 | 길이 대비 내용 과다 | 샷당 동작 1개로 줄이거나 길이 늘리기 |
+| 액션이 따로 논다 / 긴 컷에서 몸이 흔들림 | 한 컷에 동작을 다 담음 | 매치 온 액션으로 쪼개기 (방향·속도·단계 일치) |
+| 컷 사이에 동작이 반복되거나 튐 | 동작 단계 불일치 | `End mid-X` / `Start mid-X`를 같은 지점으로 지정 |
+| 컷 후 움직임이 뒤집혀 보임 | 화면 방향 불일치, 축 넘김 | `still travelling screen-right` + 카메라는 축 한쪽에 |
+| 맞았는데 가벼움 | 효과만 있고 힘 전달이 없음 | KINETIC(체중 이동) + CAMERA + AFTERMATH 3중 |
 | 둥둥 떠 있음 | 슬로모션·홀드 과다 | `No slow motion, floating pauses` + 접촉 즉시 반동 |
 | 타격감 없음 | 접촉 결과 미기술 | `Show impact, THEN recoil` + 카메라 저크 |
 | 조르기·잡기에 힘이 없음 | 상태만 기술 | 잠금 방법 + 펄스 리듬 + 상대 얼굴 반응 |
@@ -121,3 +135,4 @@ LOCKS            무기·손·인원 수·의상 상태·씬 간 연속성. 각 
 - 사용자가 결과 피드백을 줄 때마다 `references/session-lessons.md`에 **증상 → 원인 → 수정 문장**을 한 줄 추가한다.
 - 정기 연구: `scripts/koda_scrape.py <out.json> <pages>`로 새 게시물을 수집하고, 새 기법만 phrasebook에 추가, `research-log.md`에 날짜·범위·발견을 기록한다.
 - 출처는 연구용 인용으로만 쓰고, 원문 프롬프트를 통째로 재배포하지 않는다.
+- 실사 액션은 자매 스킬 `action-live-director`가 맡는다. 두 스킬은 taxonomy와 match-on-action을 공유하므로, 한쪽을 고치면 다른 쪽에도 반영한다.
