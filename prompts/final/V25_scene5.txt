@@ -1,0 +1,39 @@
+SCENE 5 — The glaive warrior & the falling robe
+21:9, 16s, timed multishot. Cuts only at the marked points, the camera does not cut on its own.
+
+REFERENCE
+@image1: the heroine, adult; use only her face and hair. 100% matches the reference.
+THE GLAIVE WARRIOR: a broad man a head and a half taller than her, dark lamellar armor, shaved head, a long-shafted glaive with a crescent blade.
+
+LOGLINE
+His reach overpowers her and costs her the sword, but every sweep he throws ends with the glaive low across her path; she turns that habit into a springboard onto his shoulders and chokes him down bare-handed.
+
+STYLE
+Hand-drawn wuxia animation: rough graphite-and-ink linework, bold ink outlines. Bamboo forest after a storm, wet leaves, overcast light, mist at 20%. Off-center framing, tilted horizons, a foreground layer.
+
+FRAME RATE
+Characters on twos at 12fps; camera, cloth, the spinning sword and falling bamboo on ones at 24fps.
+
+0.0s to 3.5s — SHOT 1, over his shoulder, low angle, horizon tilted 15 degrees, 63° FOV; his armored back fills the left foreground.
+Already mid-swing, he drives her back. She blocks on her sword and skids through the mud. The second blow tears the sword from her hands and sends it spinning high into the air.
+3.5s HARD CUT
+3.5s to 6.5s — SHOT 2, side view 50 cm above the ground, horizon tilted 20 degrees, 63° FOV.
+Both hands empty, she bends back under one huge sweep that ends low; its hook catches her sash. The sash snaps, the robe is torn off and flung into the air, and the same sweep shatters a row of bamboo. Robe and fragments sweep across the foreground so only her face and empty hands read clearly; her sword is a tiny glint spinning in the sky.
+6.5s HARD CUT
+6.5s to 8.5s — SHOT 3, low angle from his side, horizon tilted 20 degrees, 63° FOV.
+Bare-handed, she bursts from the debris. He repeats the sweep low across her path; she steps onto the passing shaft, springs off it and slams down onto his shoulders, seated facing him; his knees dip.
+8.5s HARD CUT
+8.5s to 12.5s — SHOT 4, tight side view at his shoulder height, horizon tilted 25 degrees, 47° FOV; she is fully drawn, her long hair over her chest, her raised knees screening her hips, her torso in soft ink-wash shade.
+She crosses her ankles behind his head, hooks a foot behind her own knee in a figure-four lock and wrenches her torso back and sideways. Her thighs clamp in three hard pulses; each bends his head further aside, ink stress lines bursting from the lock. His face flushes dark red, veins rise, eyes roll up; he staggers, prying at her legs, and drops the glaive. His knees give way; she twists her hips, slams him face-down into the mud and rolls clear into a low crouch, palms flat on the ground.
+12.5s HARD CUT
+12.5s to 16.0s — SHOT 5, extreme wide from far behind her, 84° FOV, locked off.
+Dozens of split bamboo sections cascade around her, heavy and fast. She rises, back to the camera, empty hands loose at her sides, half hidden by the falling bamboo. Her sword drops from the sky and stabs into the earth one step to her right, and stays there, untouched. High above, the robe and sash drift down slowly. Hold.
+
+AUDIO
+Metal clashes, a ringing sword; cloth ripping, bamboo bursting; a foot on the shaft, a thud on armor, strangled gasps, a body hitting mud; the sword's thunk into earth. No music.
+
+MOTION STYLE
+Restrained wuxia cel animation. His swings are slow and heavy; her moves are quick and light. The choke is the one pushed beat: her back arches and strains, his neck and shoulders squash under the lock. Moves ease in, peak fast and settle, on curved arcs.
+
+LOCKS
+Her face and hair match @image1. From shot 2 onward her body stays covered by the flying robe, debris, her hair, her limbs or soft ink-wash shade. From shot 2 onward her hands stay empty; the one sword stays in the sky until it stabs into the earth in shot 5. Two fighters, one glaive. Clean frame without subtitles, logos or watermarks.

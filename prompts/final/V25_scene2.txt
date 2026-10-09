@@ -1,0 +1,42 @@
+SCENE 2 — Fog strike & long-range single cut
+21:9, 12s, timed multishot. Cuts only at the marked points, the camera does not cut on its own.
+
+REFERENCE
+@image1: the heroine. 100% matches the reference. References bind appearance, not framing or poses.
+THE ARCHER: one adult man in a dark robe and a broad conical straw hat, with a wooden bow.
+
+LOGLINE
+The archer needs two seconds to nock each arrow; she dodges the first shot, then closes fifteen meters in the time it takes him to draw the second, and cuts him before he can release.
+
+RULES
+She already holds the bare sword. Exactly two arrows: the first misses, the second is never released. She advances LEFT TO RIGHT toward him; cameras stay on one side of that line.
+
+STYLE
+Graphic hand-drawn wuxia animation. Bamboo and fog are nearly monochrome graphite and ink; only the red accents from @image1 carry saturated color. Ink-wash shadows, heavy pale fog, visibility 20 meters. Every shot is off-center with a tilted horizon and a foreground layer.
+
+FRAME RATE
+Characters on twos at 12fps, pose to pose; camera, arrows, fog and backgrounds on ones at 24fps.
+
+0.0s to 1.5s — SHOT 1, over the archer's shoulder from behind bamboo cover, horizon tilted 10 degrees, 29° FOV; his bow fills the right foreground.
+She stands 15 meters away with her back to him, off-center left. His hand trembles at full draw; he releases.
+1.5s HARD CUT
+1.5s to 4.5s — SHOT 2, side view at chest height, horizon tilted 15 degrees, 47° FOV; she stands at frame right.
+The arrow streaks in from the left edge toward her back at full speed, moving the entire time. Her eyes flick at the sound; she spins on one foot and leans out of its line at the last instant, the camera whipping 90 degrees with her turn. A fading two-silhouette ink afterimage stays where she stood; the arrow passes through it and thunks into a trunk, quivering. She is already running.
+4.5s HARD CUT
+4.5s to 7.0s — SHOT 3, low angle at knee height, horizon tilted 20 degrees, 63° FOV, whip pan left to right.
+Trunks blur into horizontal graphite streaks. Intercut: his fingers fumble the second arrow onto the string. She zigzags in three foot contacts, each a brief knee squash and a long stretch into the next leap, gravel kicking toward the lens, each leap halving the distance.
+7.0s HARD CUT
+7.0s to 9.5s — SHOT 4, side view at knee height, horizon tilted 20 degrees, 47° FOV; his back in the right foreground, a large trunk beyond.
+He reaches full draw just as she slides to a stop behind him. Her shoulder dips, then one crescent cut: slow start, one smear, held follow-through. A thin white brush arc links her blade to a diagonal line across his hat, his bowstring and the trunk beyond. Half a second of near-stillness.
+9.5s HARD CUT
+9.5s to 12.0s — SHOT 5, horizon tilted 10 degrees, 47° FOV; she passes close across the foreground in profile, filling the left third.
+Behind her the hat halves fall on separate arcs, the cut bowstring whips loose, the unreleased arrow drops, and the severed bamboo tips, gathers speed and crashes into the fog. She walks on without looking back, the bare sword low at her side.
+
+AUDIO
+Bowstring snap, rising arrow whistle, a thunk into bamboo; three rapid footfalls, a nervous scrape of arrow on bow; one blade hiss, half a second of silence, a snapping string, a bamboo creak and a distant crash. No music.
+
+MOTION STYLE
+Restrained wuxia cel animation: compressed anticipation, explosive release, brief directional smears resolving into clear anatomy. Sudden speed snaps into sudden stillness. Hair and sleeves lag behind every turn; moves travel on curved arcs.
+
+LOCKS
+Her face, costume and sword match @image1 in every shot. She carries the bare sword throughout. One heroine, one archer, two arrows. Clean frame without subtitles, logos or watermarks.

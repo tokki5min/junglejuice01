@@ -1,0 +1,44 @@
+SCENE 0 — The arrow & the canopy chase
+21:9, 16s, timed multishot. Cuts only at the marked points, the camera does not cut on its own.
+
+REFERENCE
+@image1: the heroine. 100% matches the reference.
+@image2: the sect master, an adult man. 100% matches the reference.
+References bind appearance, not framing or poses.
+THE ARCHER: one adult man in a dark robe and black face wrap, with a bow.
+
+LOGLINE
+A tender embrace is broken by an arrow; she grabs her sword and hunts the archer across the bamboo canopy, and when he looses a second arrow back at her, she cuts it out of the air without slowing.
+
+RULES
+One arrow kills, one arrow is deflected; nothing else flies. Her sword leans sheathed against the rail until shot 4; from then on she holds the bare blade and the scabbard is gone. The archer always flees screen-right; she chases left to right.
+
+STYLE
+Hand-drawn wuxia animation: thin broken ink, dry-brush texture, restrained watercolor fills, bold ink outlines. Wooden veranda at the edge of a dense bamboo forest, soft overcast afternoon light, mist at 15%. Every shot is off-center with a tilted horizon and a foreground layer.
+
+FRAME RATE
+Characters on twos at 12fps, pose to pose; camera, arrows, leaves and backgrounds on ones at 24fps.
+
+0.0s to 3.5s — SHOT 1, medium two-shot from the side, horizon tilted 10 degrees, 47° FOV; bamboo leaves sway in the foreground.
+Her sheathed sword leans against the rail. He embraces her from behind, arms around her waist; she smiles, leans back and rests her hand over his, turning her face toward him for a kiss.
+3.5s HARD CUT
+3.5s to 6.0s — SHOT 2, wide side view, horizon tilted 15 degrees, 63° FOV; the couple at frame right.
+An arrow streaks in from the left edge at full speed, a sharp ink-lined blur moving the entire time, and strikes his back. Impact, THEN fall: his arms jerk loose, he arches and topples onto the floorboards; her hand slides out of his.
+6.0s HARD CUT
+6.0s to 8.0s — SHOT 3, extreme close-up on her eyes, 18° FOV, slow push-in.
+Her pupils shrink to pinpoints and tremble; then her brows drop, her eyes narrow and her jaw locks into cold rage.
+8.0s HARD CUT
+8.0s to 10.5s — SHOT 4, low angle from the floor, horizon tilted 20 degrees, 63° FOV.
+Far off, the archer flees across the bamboo crowns. She snatches up the sword, rips the blade free, flings the scabbard aside and launches off the cracking rail onto a tall bamboo top.
+10.5s HARD CUT
+10.5s to 16.0s — SHOT 5, aerial tracking above the canopy, horizon tilted 15 degrees, 84° FOV; the camera flies alongside her at 50 km/h, coupled to her momentum.
+Each landing bends a bamboo top deep under her; it snaps back and flings her forward in a long arc, leaves bursting. The archer twists and looses a second arrow back at her; it streaks across the frame and she cuts it in half mid-leap, the halves spinning past the lens. On the last spring she soars high, flips head-down and dives into the forest, still accelerating.
+
+AUDIO
+Wind in bamboo, a quiet laugh; arrow whistle, a wet thud, a body on wood; one heartbeat in silence; a blade ringing free, creaking bamboo, rushing wind, a sharp split of the second arrow. No music or dialogue.
+
+MOTION STYLE
+Restrained wuxia cel animation: compressed anticipation, explosive release, brief directional smears resolving into clear anatomy. Shot 1 is tender and slow. The eye shock and each bamboo spring are the pushed beats: deep squash of the bamboo on landing, long stretch on launch. Hair, sleeves and sash lag behind every turn.
+
+LOCKS
+Her face, costume and sword match @image1; his face and robe match @image2. Exactly three people, two arrows, one sword. Clean frame without subtitles, logos or watermarks.

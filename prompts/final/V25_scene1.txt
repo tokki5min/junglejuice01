@@ -1,0 +1,36 @@
+SCENE 1 — Spiral dive & canopy ambush
+21:9, 12s, timed multishot. Cuts only at the marked points, the camera does not cut on its own.
+
+REFERENCE
+@image1: the heroine. 100% matches the reference. References bind appearance, not framing or poses.
+THE ASSASSINS: two adult men in dark robes and black face wraps, each with one short sword.
+
+LOGLINE
+Two assassins spring a canopy ambush from opposite sides; she turns the recoil of the first clash into the spin that carries her through the second, then lands already running.
+
+RULES
+Exactly three blades: her one bare sword, one short sword per assassin; hilts stay in their owners' hands. No dropped, merged, duplicated or floating weapons. Start immediately in motion.
+
+STYLE
+Hand-drawn wuxia animation: thin broken ink, dry-brush texture, restrained watercolor fills, bold ink outlines. Dense bamboo forest, overcast daylight, mist at 20%, damp dark soil. Every shot is off-center with a tilted horizon and a foreground layer.
+
+FRAME RATE
+Characters on twos at 12fps, pose to pose; camera, backgrounds, mist and leaves on ones at 24fps.
+
+0.0s to 3.0s — SHOT 1, top-down, 84° FOV, the camera dives after her.
+She is already plunging head-first through the canopy. The camera drops faster than she falls, closing from wide to a medium shot of her back while rotating 180 degrees around her. Bamboo crowns rush past the lens and burst into leaves; her hair, sleeves and sash stream upward.
+3.0s HARD CUT
+3.0s to 7.0s — SHOT 2, medium shot, horizon tilted 30 degrees, 47° FOV, camera falling with her; trunks slice past in the foreground.
+The first assassin bursts from the crowns at left; she meets his blade, sparks burst, and the recoil spins her body around instead of stopping it. She rides that spin into a foot-plant on a bowing trunk, kicks off, and the camera whips 90 degrees with her as the second assassin lunges from the right into the arc of her circular cut: slow start, one smear at peak speed, held follow-through. Impact, THEN fall: both assassins tumble away through the leaves.
+7.0s HARD CUT
+7.0s to 12.0s — SHOT 3, worm's-eye low angle, horizon tilted 15 degrees, 63° FOV, starting on the forest floor.
+She drops toward the lens into a deep crouch, free hand slamming the mud; mud and leaves burst and the camera jolts on the impact. With no pause she springs forward; the camera trucks alongside in profile at 40 km/h, trunks streaking past. One flat stroke splits a thin bamboo; it slides apart and topples behind her. She skids to a stop and the camera swings to a low three-quarter angle, off-center left: blade extended at chest level, breath heaving, eyes fixed coldly ahead.
+
+AUDIO
+Rushing wind, whipping cloth; one sharp steel clash, a sword-air whistle; a heavy wet landing, fast footsteps, one dry hiss, bamboo splitting. Short sound tails; no music.
+
+MOTION STYLE
+Restrained wuxia cel animation: compressed anticipation, explosive release, brief directional smears resolving into clear anatomy at contact, immediate recoil. Carry parries into displacement and recoveries into attacks. Hair, sleeves and sash lag behind every turn; moves travel on curved arcs; poses stay asymmetric. Heavy mud and bamboo fall slow; blades and sparks are quick and light.
+
+LOCKS
+Her face, costume and sword match @image1 in every shot. She carries the bare sword throughout. Exactly two assassins. Clean frame without subtitles, logos or watermarks.

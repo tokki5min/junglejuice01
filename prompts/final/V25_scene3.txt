@@ -1,0 +1,39 @@
+SCENE 3 — Close-quarters mud fight against four assassins
+21:9, 12s, timed multishot. Cuts only at the marked points, the camera does not cut on its own.
+
+REFERENCE
+@image1: the heroine. 100% matches the reference. References bind appearance, not framing or poses.
+THE ASSASSINS: exactly four adult men in dark robes and broad conical straw hats; two with long spears, two with swords.
+
+LOGLINE
+The four always attack in mirrored pairs from both sides at once; she uses that symmetry against them, trapping the crossing spears and slipping half a step so the two swordsmen's blades meet each other.
+
+RULES
+She already holds the bare sword. Exactly five weapons: her sword, two spears, two swords. Every assassin ends on the ground.
+
+STYLE
+High-contrast hand-drawn wuxia animation: rough graphite contours, splattered black ink shadows, restrained crimson accents. Rain-soaked bamboo grove, cold grey light, mist at 20%, muddy ground. Every shot is off-center with a tilted horizon and a foreground layer.
+
+FRAME RATE
+Characters on twos at 12fps; camera, rain and backgrounds on ones at 24fps. Shot 2 is slow motion and moves entirely on ones.
+
+0.0s to 3.0s — SHOT 1, real time. Camera rigidly mounted on her upper torso, low angle, horizon tilted 20 degrees, 63° FOV.
+Two spears thrust in from the left and right edges at once. She bends back; the spearheads cross just past her face. She clamps both crossed shafts under one arm and yanks: the spearmen stumble into each other. Pommel into one face, the straw hat bursting; heel into the other's chest. Both drop into the mud.
+3.0s HARD CUT
+3.0s to 6.0s — SHOT 2, slow motion at 15% from the first frame, high angle through the rain, 47° FOV.
+The two swordsmen leap at her from both sides in perfect mirror, swords raised. The camera makes one 180-degree descending orbit above her. Raindrops drift past the lens. Her eyes go to one blade, then the other; her fingers turn the sword into reverse grip.
+6.0s HARD CUT
+6.0s to 9.0s — SHOT 3, real time. Side view at mud level, camera 30 cm high, horizon tilted 25 degrees, 63° FOV; a puddle and bamboo stalks in the foreground.
+She slips half a step back; their two blades slam into each other where she stood, sparks flaring. Before they separate she cuts upward through both locked swords, then reverses down across their chests with the flat. Impact, THEN fall: they stagger back, slip and crash into the mud. Mud sprays the lens.
+9.0s HARD CUT
+9.0s to 12.0s — SHOT 4, real time. High angle 30 degrees, wide, 63° FOV, from behind the fallen assassins.
+Four bodies lie as dark out-of-focus shapes along the bottom of the frame. She stands in the midground, three-quarter from behind, off-center right, rain in diagonal streaks. She flicks rain from the blade, lowers it to her side and lifts her eyes to the forest ahead.
+
+AUDIO
+Rain, heavy breathing, spears cutting air, a wooden crack; shot 2 muffled to one stretched heartbeat; then a steel-on-steel clang, two strikes, mud splashes, rain hissing on the blade. No music.
+
+MOTION STYLE
+Restrained wuxia cel animation: compressed anticipation, explosive release, brief smears resolving into clear anatomy at contact, immediate recoil. Her soaked hair and robe are heavy and lag behind every turn. Moves travel on curved arcs; poses stay asymmetric.
+
+LOCKS
+Her face, costume and sword match @image1 in every shot. She carries the bare sword throughout. Exactly four assassins. Blood shown only as black ink and small crimson accents. Clean frame without subtitles, logos or watermarks.
