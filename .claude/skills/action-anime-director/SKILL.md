@@ -16,6 +16,7 @@ description: 2D 애니메이션 액션 영상(무협·검술·격투·추격·�
 | 타격 하나를 설계할 때 | `references/action-impact-taxonomy.md` (8대 액션 그룹, 애니/실사 문구 매핑) |
 | 샷을 나눠 동작을 이을 때 | `references/match-on-action.md` (방향·속도·동작 단계) |
 | 액션 문구가 필요할 때 | `references/koda-phrasebook.md` (검증된 원문 문구 사전) |
+| 사용자 작업 환경(결과 영상 위치, Dola AI 15초 분할) | `references/user-setup.md` |
 | 영상에 맞춰 캐릭터·키프레임 이미지를 뽑을 때 | `references/koda-image-library.md` (코다의 Midjourney·캐릭터 시트 프롬프트 + 이미지 링크, 자동 생성) |
 | 완성 예시를 보고 싶을 때 | `references/koda-examples.md` |
 | 결과물이 이상할 때 | `references/session-lessons.md` (실제 실패 → 수정 기록) |
