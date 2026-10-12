@@ -101,6 +101,7 @@ LOCKS            무기·손·인원 수·의상 상태·씬 간 연속성. 각 
 - **칼 궤적 전환**: `Blade trails mask seamless cuts between shots` / `Her rising arc eclipses the lens.`
 - **텔레포트**: 사라진 자리는 비워 두고(`Every disappearance leaves clearly empty space`) 도착은 공격 도중(`She reforms mid-attack`).
 - **속도를 부재로 표현**: `the camera catches only fragments, impacts and consequences, while she is already somewhere else.`
+- **셋업 → 회수(공포 액션, 코다 10-11)**: 앞 샷에서 놓친 공격이 만든 환경 피해(쪼개진 나무)와 빛·그림자 이상(칼의 그림자가 반대로 휨)을 깔고, 뒤 샷에서 그것을 장애물·결정타로 회수한다. 부상도 끝까지 들고 간다(`left arm held close`). 공포 톤이면 매 샷 Dutch 트래킹, 마지막 컷만 `The camera settles level` 로 수평 복귀. 구조는 `Shot N:` 아래 `Cut:` 하위 컷 3개.
 - **잔상 되감기 / 충전 후 방출 / 즉발 빔** 문구는 phrasebook 참조.
 - **긴 단편 파이프라인(코다)**: 전체 이야기를 30초 480p로 먼저 테스트 → 프레임 캡처로 캐릭터 시트·빈 배경 플레이트 → 3개 프롬프트로 분할 → 깨진 10초만 재생성 → 이전 결과 프레임을 다음 구간 레퍼런스로.
 

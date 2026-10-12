@@ -1,6 +1,6 @@
 # Kōda (@aimikoda) 액션 문구 사전
 
-연구 범위: 2026-08-26 ~ 2026-10-08 공개 게시물 156개(프롬프트 스레드 94개). 모델 비중은 Seedance 2.5와 MiniMax H3가 대부분이고 Wan 3.0이 일부다. 아래는 원문 그대로 인용한 문구다.
+연구 범위: 2026-08-26 ~ 2026-10-08 공개 게시물 156개(프롬프트 스레드 94개), 2026-10-12 정기 연구에서 10-09 ~ 10-12 추가. 모델 비중은 Seedance 2.5와 MiniMax H3가 대부분이고 Wan 3.0이 일부다. 아래는 원문 그대로 인용한 문구다.
 
 ## 오프닝 / 엔딩
 - "Start immediately in motion." / "Begin mid-movement" / "The scene opens already in motion"
@@ -60,6 +60,10 @@
 - 샷마다 렌즈 지정: "Shot 1 | 0-2s. High oblique 24mm"
 - 컷 지시: "CUT on his incoming strike." / "CUT before floor contact." / "CUT through a foreground shoe."
 - "close-ups are brief inserts returning wide"
+- 샷 안에 하위 컷을 묶는 구조: "Shot 1: ... Cut: ... Cut: ..." (샷 8개 × 하위 컷 3개, 공포 액션)
+- 공포 액션 레지스터: "rapid cuts and Dutch-angle tracking shots" — 매 샷 Dutch 트래킹, 마지막 컷만 "The camera settles level across the empty clearing." (수평 복귀 = 위협 종료)
+- "Insert lightning-fast detail cuts of narrowed eyes, tightening fingers, twisting wrists, grazing blades ... immediately returning to ferocious wide-angle combat."
+- "Dramatic foreground occlusion, near-lens blade strikes, shifting focal distances and rapid depth transitions"
 
 ## 물리 / 파편 / 천
 - "Swing pressure bends air; contacted rock peels into painted fragments, leaving gouges."
@@ -70,6 +74,9 @@
 - "Give the skirt substantial momentum: it follows her hips, overtakes her during abrupt stops and lashes around her during reversals."
 - "no sliding, gliding or skidding. Sweeps use a planted foot; every landing grips the floor."
 - "dark creature remains breaking apart into painterly shreds instead of realistic gore"
+- "disintegrating into shredded ink ribbons and dry black dust ... crumbles into lifeless ash" (괴물 소멸, 머리는 마지막에: "Its horned head breaks apart last")
+- 환경 피해를 다음 장애물로 재사용: "the missed claw splits a slender tree's base, leaving it leaning" → 다음 샷에서 괴물이 그 나무를 뽑아 퇴로를 막는다 → "She turns toward the thin end and commits to a vault"
+- 부상 지속: "Her left shoulder clips the splintered trunk" 이후 "left arm held close", "injured shoulder low"; 괴물도 "its torn left wrist still sheds fibers"
 
 ## 연기 / 전투 논리
 - 전술 서사: "Saito repeatedly escapes under Erza's left arm ... she uses that habit as bait and closes the exit with her second blade. Show this reversal through their changed routes."
@@ -79,6 +86,9 @@
 - "They exploit openings and replace fallen fighters without waiting."
 - "Carry body state across cuts without resetting to neutral."
 - "fierce concentration with a confident, playful edge"
+- 빛·그림자 복선 → 회수: 1샷 "the blade flashes silver, but its cast shadow curls against her movement" → 7샷 "she plunges the moonlit blade through the creature's advancing shadow into the soil ... its shadow holds its feet"
+- 공포 쪽 감정 전환: "Close on her frightened face, then reframing to her sword ... She stops retreating."
+- "No slow motion, no idle posing, no pauses between attacks. Every movement flows directly into another attack, parry or counterattack."
 
 ## 연속성 / 레퍼런스
 - "Both supply the painterly anime style, not poses. Animate new full-body silhouettes rather than sliding or rotating the reference crouches."
@@ -100,6 +110,9 @@
 - "readability stays sharp through clean silhouettes, bold spacing, strong directionality and clear impact poses"
 - "Extend this treatment to [new element]."
 - "Use @[referenced first image] as the primary style lock"
+- 레퍼런스 역할 한 줄: "Use @[ref1] for the ninja, @[ref2] for the creature, @[ref3] for forest and light."
+- 색 임팩트: "Every impact briefly floods the monochromatic environment with violent pink, green and rainbow light." (흑백 배경 + 접촉 순간에만 네온)
+- "Hand-drawn anime expressiveness and premium 2.5D cinematic depth preserve the original illustration style without turning the characters into realistic CGI."
 
 ## 사운드
 - "Rapid air cuts, cloth snaps, dry steel cracks and a blunt kick impact; short sound tails keep the next attack audible. No dialogue, subtitles, on-screen text or music."
@@ -116,10 +129,13 @@
 - 프레임 브레이크: "Getting the bar sizes right is still tricky. The model seems to decide for itself."
 - "Seedance 2.5 holds Midjourney styles insanely well."
 - Wan 3.0: 공들인 프롬프트보다 아이디어를 짧게 그대로 쓴 쪽이 나았다.
+- "Really love how this sref animates." — sref마다 영상화 적합도가 다르다. 움직였을 때 좋은 sref를 골라 쓴다(10-11, `2432028955`).
+- Nano Banana 2.1 한 줄 편집: "recreate this image as a collage made from newspaper parts."
 
 ## Midjourney 습관
 - sref를 여러 개 쌓고 profile을 1~2개 붙인다. 예: `--sref 1448908625 3123598145 387469134 3207844525 --profile kxxcnp9 --stylize 250`
 - stylize는 150, 250, 500, 1000 중에서 쓴다.
 - 비율은 캐릭터 1:2 또는 2:3, 장면 16:9다.
 - 프롬프트가 아주 짧다("dawn", "weapon" 한 단어로도 쓴다).
+- 10-10 이후 Midjourney 게시물 4건은 전부 v8.2 + 새 profile `d3zvtyp` + sref 1개였고 stylize는 생략했다(그 전엔 sref 여러 개 + stylize 1000이 많았다). 예: `--sref 3282000149 --profile d3zvtyp`(3D 애니·네온·사이버펑크), `1532808791`, `2432028955`(고딕 잉크).
 - 캐릭터 템플릿: "full body character design, mid-air action pose, angular painterly character concept art, bold silhouette design, exaggerated elongated proportions, anime character styling, faceted planar shading ..."
