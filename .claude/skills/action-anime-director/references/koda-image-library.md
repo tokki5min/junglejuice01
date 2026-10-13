@@ -1,6 +1,6 @@
 # Kōda 이미지 프롬프트 라이브러리 (자동 생성)
 `scripts/koda_library.py`가 만든다. 직접 고치지 않는다. 원문은 연구·개인 참고용으로만 쓴다.
-- 항목 221개 / Midjourney 프롬프트 159개 / 캐릭터 시트 프롬프트 52개
+- 항목 222개 / Midjourney 프롬프트 159개 / 캐릭터 시트 프롬프트 53개
 
 ## 자주 쓰는 sref 코드
 `74117661`×12, `2688930422`×8, `3732263062`×8, `8302900945`×8, `1448908625`×7, `2116795492`×6, `387469134`×6, `2880399749`×5, `3115865291`×5, `3123598145`×5, `3207844525`×5, `1030259122`×5, `3626095821`×5, `2343335488`×5, `4107378996`×4, `1798619238`×4, `2523336497`×4, `3295658070`×4, `3999913842`×3, `5452206699`×3, `2432028955`×2, `2004805678`×2, `2757484790`×2, `572464382`×2, `452368747`×2
@@ -10,7 +10,21 @@
 
 ---
 
-### Mon Oct 12 10:04 · ♥35 · midjourney
+### Mon Oct 12 18:26 · ♥65 · character_sheet
+https://x.com/aimikoda/status/2109712205277008187
+
+> Character sheet with Krea 3
+
+**캐릭터 시트 프롬프트**
+```
+Character sheet with Krea 3
+```
+
+이미지: [1](https://pbs.twimg.com/media/HUc0BV_WIAAmA9P.jpg?name=orig)
+
+---
+
+### Mon Oct 12 10:04 · ♥111 · midjourney
 https://x.com/aimikoda/status/2109585973948432676
 
 > Midjourney v8.2  Love this mix of stylized 3D anime, bold neon colors and cyberpunk vibes.  --sref 3282000149 --profile d3zvtyp
@@ -24,7 +38,7 @@ https://x.com/aimikoda/status/2109585973948432676
 
 ---
 
-### Sun Oct 11 10:51 · ♥20 · midjourney, video
+### Sun Oct 11 10:51 · ♥23 · midjourney, video
 https://x.com/aimikoda/status/2109235438875505149
 
 > Seedance 2.5 Prompt: Premium dark fantasy 2D anime cinematography fused with gothic ink illustration, high-sakuga sword choreography and experimental action filmmaking. Preserve the reference aestheti
@@ -40,7 +54,7 @@ https://x.com/aimikoda/status/2109235438875505149
 
 ---
 
-### Sun Oct 11 10:50 · ♥270 · midjourney, video
+### Sun Oct 11 10:50 · ♥313 · midjourney, video
 https://x.com/aimikoda/status/2109235247162245339
 
 > Midjourney v8.2 + Seedance 2.5  Really love how this sref animates.  --sref 2432028955 --profile d3zvtyp  Seedance 2.5 Prompt in the replies.
@@ -86,7 +100,7 @@ Prompt: recreate this image as a collage made from newspaper parts.
 
 ---
 
-### Thu Oct 08 12:39 · ♥503 · image_model, video
+### Thu Oct 08 12:39 · ♥505 · image_model, video
 https://x.com/aimikoda/status/2108175425524670621
 
 > This blend animates really well.  Created with Seedance 2.5 then added some impact frames with GPT-6 Astra.
@@ -116,7 +130,7 @@ https://x.com/aimikoda/status/2108115988650856461
 
 ---
 
-### Wed Oct 07 13:39 · ♥356 · midjourney, video
+### Wed Oct 07 13:39 · ♥357 · midjourney, video
 https://x.com/aimikoda/status/2107828212042473886
 
 > Trying out a new format.  The first 15 seconds were made with Opus 5.5 through Antigravity. It hit the limit before finishing, so I switched to Gemini 3.8 Flash for the rest since most of the code was
@@ -153,7 +167,7 @@ https://x.com/aimikoda/status/2106638080685834407
 
 ---
 
-### Sat Oct 03 06:49 · ♥136 · midjourney
+### Sat Oct 03 06:49 · ♥137 · midjourney
 https://x.com/aimikoda/status/2106275530521645098
 
 > Midjourney v8.2 Prompt and Style mix for these types of characters.  Princess with a slender sword, sneakers, kungfu pants, full body character design, mid-air action pose, angular painterly character
@@ -167,7 +181,7 @@ Princess with a slender sword, sneakers, kungfu pants, full body character desig
 
 ---
 
-### Thu Oct 01 06:45 · ♥158 · midjourney
+### Thu Oct 01 06:45 · ♥159 · midjourney
 https://x.com/aimikoda/status/2105549602380546449
 
 > Midjourney v8.2  --sref 4107378996 --profile 24zcv9k ov6stn7 --stylize 1000
@@ -198,7 +212,7 @@ The girl is already deep into an intense match, hammering rapid key combinations
 
 ---
 
-### Wed Sep 30 13:51 · ♥272 · midjourney, video
+### Wed Sep 30 13:51 · ♥274 · midjourney, video
 https://x.com/aimikoda/status/2105294480161095994
 
 > The fight for lane control.  Created with Midjourney + Seedance 2.5  Style mix and prompts are in the replies. ↓
@@ -263,7 +277,7 @@ Midjourney v8.2:  --sref 1448908625 3123598145 387469134 3207844525 --profile kx
 
 ---
 
-### Mon Sep 28 17:11 · ♥628 · midjourney, video
+### Mon Sep 28 17:11 · ♥629 · midjourney, video
 https://x.com/aimikoda/status/2104619926702932219
 
 > Just grinding mobs  Created with Midjourney v8.2 + Seedance 2.5  Prompts in the replies. 👇
@@ -295,7 +309,7 @@ Midjourney v8.2: cat doing zoomies in house --ar 16:9 --sref 3309178205 --profil
 
 ---
 
-### Mon Sep 28 07:31 · ♥1143 · midjourney, video
+### Mon Sep 28 07:31 · ♥1142 · midjourney, video
 https://x.com/aimikoda/status/2104474150215578011
 
 > Zoomies  Created with Midjourney v8.2 + Seedance 2.5 Prompts in the replies👇
@@ -343,7 +357,7 @@ Midjourney: good morning sunday --ar 16:9 --sref 1448908625 3123598145 387469134
 
 ---
 
-### Fri Sep 25 10:20 · ♥341 · midjourney
+### Fri Sep 25 10:20 · ♥342 · midjourney
 https://x.com/aimikoda/status/2103429350028644816
 
 > Midjourney v8.2  A new mix: --sref 1448908625 3123598145 387469134 3207844525 --profile kxxcnp9 --stylize 250  And a tip for poses: Use keywords like mid-air action pose, mid-air combat pose for more 

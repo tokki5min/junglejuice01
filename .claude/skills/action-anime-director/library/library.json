@@ -3,7 +3,7 @@
   "id": "2108175425524670621",
   "url": "https://x.com/aimikoda/status/2108175425524670621",
   "date": "Thu Oct 08 12:39:24 +0000 2026",
-  "likes": 503,
+  "likes": 505,
   "kinds": [
    "image_model",
    "video"
@@ -163,7 +163,7 @@
   "id": "2106275530521645098",
   "url": "https://x.com/aimikoda/status/2106275530521645098",
   "date": "Sat Oct 03 06:49:53 +0000 2026",
-  "likes": 136,
+  "likes": 137,
   "kinds": [
    "midjourney"
   ],
@@ -200,7 +200,7 @@
   "id": "2105549602380546449",
   "url": "https://x.com/aimikoda/status/2105549602380546449",
   "date": "Thu Oct 01 06:45:19 +0000 2026",
-  "likes": 158,
+  "likes": 159,
   "kinds": [
    "midjourney"
   ],
@@ -246,7 +246,7 @@
   "id": "2105294480161095994",
   "url": "https://x.com/aimikoda/status/2105294480161095994",
   "date": "Wed Sep 30 13:51:33 +0000 2026",
-  "likes": 272,
+  "likes": 274,
   "kinds": [
    "midjourney",
    "video"
@@ -398,7 +398,7 @@
   "id": "2104619926702932219",
   "url": "https://x.com/aimikoda/status/2104619926702932219",
   "date": "Mon Sep 28 17:11:07 +0000 2026",
-  "likes": 628,
+  "likes": 629,
   "kinds": [
    "midjourney",
    "video"
@@ -496,7 +496,7 @@
   "id": "2104474150215578011",
   "url": "https://x.com/aimikoda/status/2104474150215578011",
   "date": "Mon Sep 28 07:31:51 +0000 2026",
-  "likes": 1143,
+  "likes": 1142,
   "kinds": [
    "midjourney",
    "video"
@@ -634,7 +634,7 @@
   "id": "2103429350028644816",
   "url": "https://x.com/aimikoda/status/2103429350028644816",
   "date": "Fri Sep 25 10:20:11 +0000 2026",
-  "likes": 341,
+  "likes": 342,
   "kinds": [
    "midjourney"
   ],
@@ -7584,7 +7584,7 @@
   "id": "2109585973948432676",
   "url": "https://x.com/aimikoda/status/2109585973948432676",
   "date": "Mon Oct 12 10:04:25 +0000 2026",
-  "likes": 35,
+  "likes": 111,
   "kinds": [
    "midjourney"
   ],
@@ -7629,7 +7629,7 @@
   "id": "2109235247162245339",
   "url": "https://x.com/aimikoda/status/2109235247162245339",
   "date": "Sun Oct 11 10:50:45 +0000 2026",
-  "likes": 270,
+  "likes": 313,
   "kinds": [
    "midjourney",
    "video"
@@ -7667,7 +7667,7 @@
   "id": "2109235438875505149",
   "url": "https://x.com/aimikoda/status/2109235438875505149",
   "date": "Sun Oct 11 10:51:30 +0000 2026",
-  "likes": 20,
+  "likes": 23,
   "kinds": [
    "midjourney",
    "video"
@@ -7779,7 +7779,7 @@
   "id": "2107828212042473886",
   "url": "https://x.com/aimikoda/status/2107828212042473886",
   "date": "Wed Oct 07 13:39:41 +0000 2026",
-  "likes": 356,
+  "likes": 357,
   "kinds": [
    "midjourney",
    "video"
@@ -7793,5 +7793,29 @@
    "https://pbs.twimg.com/media/HUCDRduWIAEyePK.jpg"
   ],
   "summary": "Trying out a new format.\n\nThe first 15 seconds were made with Opus 5.5 through Antigravity. It hit the limit before finishing, so I switched to Gemini 3.8 Flash for the rest since most of the code was"
+ },
+ "2109712205277008187": {
+  "id": "2109712205277008187",
+  "url": "https://x.com/aimikoda/status/2109712205277008187",
+  "date": "Mon Oct 12 18:26:00 +0000 2026",
+  "likes": 65,
+  "kinds": [
+   "character_sheet"
+  ],
+  "midjourney_prompts": [],
+  "sheet_prompts": [
+   "Character sheet with Krea 3"
+  ],
+  "image_model_prompts": [],
+  "paired_video_prompt": false,
+  "images": [
+   {
+    "url": "https://pbs.twimg.com/media/HUc0BV_WIAAmA9P.jpg?name=orig",
+    "w": 3136,
+    "h": 1344
+   }
+  ],
+  "video_thumbs": [],
+  "summary": "Character sheet with Krea 3"
  }
 }

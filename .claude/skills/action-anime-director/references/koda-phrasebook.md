@@ -1,6 +1,6 @@
 # Kōda (@aimikoda) 액션 문구 사전
 
-연구 범위: 2026-08-26 ~ 2026-10-08 공개 게시물 156개(프롬프트 스레드 94개), 2026-10-12 정기 연구에서 10-09 ~ 10-12 추가. 모델 비중은 Seedance 2.5와 MiniMax H3가 대부분이고 Wan 3.0이 일부다. 아래는 원문 그대로 인용한 문구다.
+연구 범위: 2026-08-26 ~ 2026-10-08 공개 게시물 156개(프롬프트 스레드 94개), 2026-10-12 정기 연구에서 10-09 ~ 10-12 추가, 2026-10-13에 10-12 칵테일 스레드 추가. 모델 비중은 Seedance 2.5와 MiniMax H3가 대부분이고 Wan 3.0이 일부다. 아래는 원문 그대로 인용한 문구다.
 
 ## 오프닝 / 엔딩
 - "Start immediately in motion." / "Begin mid-movement" / "The scene opens already in motion"
@@ -64,6 +64,9 @@
 - 공포 액션 레지스터: "rapid cuts and Dutch-angle tracking shots" — 매 샷 Dutch 트래킹, 마지막 컷만 "The camera settles level across the empty clearing." (수평 복귀 = 위협 종료)
 - "Insert lightning-fast detail cuts of narrowed eyes, tightening fingers, twisting wrists, grazing blades ... immediately returning to ferocious wide-angle combat."
 - "Dramatic foreground occlusion, near-lens blade strikes, shifting focal distances and rapid depth transitions"
+- 동작 도중 컷 지점 지정: "Push toward the stream; cut during the pour." / "cut as stirring begins" / "Cut on the slide to a low lateral track" / "Cut as the rim approaches his lips." — 다음 샷은 "continues the pour until it stops", "continues the first stirring circle"로 이어 받는다.
+- "Five shots in continuous time; cuts on action stay on one side of their axis."
+- 받기 동작에 카메라 제동: "Brake with the catch, then tilt up as he lifts the glass"
 
 ## 물리 / 파편 / 천
 - "Swing pressure bends air; contacted rock peels into painted fragments, leaving gouges."
@@ -77,6 +80,17 @@
 - "disintegrating into shredded ink ribbons and dry black dust ... crumbles into lifeless ash" (괴물 소멸, 머리는 마지막에: "Its horned head breaks apart last")
 - 환경 피해를 다음 장애물로 재사용: "the missed claw splits a slender tree's base, leaving it leaning" → 다음 샷에서 괴물이 그 나무를 뽑아 퇴로를 막는다 → "She turns toward the thin end and commits to a vault"
 - 부상 지속: "Her left shoulder clips the splintered trunk" 이후 "left arm held close", "injured shoulder low"; 괴물도 "its torn left wrist still sheds fibers"
+
+## 소품 회계 / 연속 변형 (10-12 칵테일 스레드)
+- 시작 상태 분리: "The images define appearance; the cocktail starts unprepared." / "No precut garnish." — 레퍼런스가 결과 상태를 미리 보여 주지 않게 한다.
+- 배치 지도 한 단락: "Preparation area: empty clear martini glass at center; left, ...; right, ..." + "Objects stay where placed."
+- 개수는 대문자로: "HALF a yellow lemon", "ONE thin half-moon slice", "ONE red fire beetle", "BOTH ear openings"
+- 같은 물건 추적: "THAT SAME slice", "the same glass", "the same empty glass, still carrying the same half-moon lemon slice" + "It remains attached there through the final shot."
+- 남은 물건도 위치를 다시 쓴다: "The remaining lemon half and knife stay on the board." / "the spoon is completely gone"
+- 투명도로 가시성 확보: "Liquids remain translucent, keeping beetle and spoon visible." / "silver adds shimmer without opacity"
+- 컷 없는 변형: "Show continuous material loss without a cut, sudden disappearance or concealing smoke." 변형은 단계로 쓴다(잠긴 부분 → 자루 → 손끝 마지막 방울) + 끝 상태 확인 "no handle or fragment remains", "Her visibly empty fingers open".
+- 사운드로 컷 잇기: "Bar ambience bridges cuts, with knife taps, salt scrape, pours ..."
+- 정적 후 터뜨리기: "Push in through one quiet beat. Smoke suddenly jets sideways ..." 직후 "A small, quick dolly back keeps all three sources visible"
 
 ## 연기 / 전투 논리
 - 전술 서사: "Saito repeatedly escapes under Erza's left arm ... she uses that habit as bait and closes the exit with her second blade. Show this reversal through their changed routes."
@@ -130,6 +144,7 @@
 - "Seedance 2.5 holds Midjourney styles insanely well."
 - Wan 3.0: 공들인 프롬프트보다 아이디어를 짧게 그대로 쓴 쪽이 나았다.
 - "Really love how this sref animates." — sref마다 영상화 적합도가 다르다. 움직였을 때 좋은 sref를 골라 쓴다(10-11, `2432028955`).
+- Krea 3로 캐릭터 시트를 뽑았다(10-12, 프롬프트 비공개).
 - Nano Banana 2.1 한 줄 편집: "recreate this image as a collage made from newspaper parts."
 
 ## Midjourney 습관
