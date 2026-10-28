@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 음악 판독기</title>
+<style>
+  body { font-family: system-ui, sans-serif; background:#111; color:#eee; margin:0; padding:24px 16px; text-align:center; }
+  h1 { font-size:1.3rem; }
+  button { width:180px; height:180px; border-radius:50%; border:0; font-size:1.1rem; background:#3b82f6; color:#fff; margin:24px 0; }
+  button:disabled { background:#555; }
+  #meter { font-size:3rem; font-weight:700; }
+  #status, #note { color:#aaa; font-size:.9rem; }
+</style>
+</head>
+<body>
+<h1>AI 음악 판독기</h1>
+<button id="btn">듣기 시작</button>
+<div id="status">버튼을 누르면 12초간 주변 음악을 듣습니다.</div>
+<div id="meter"></div>
+<div id="note"></div>
+<script src="/static/app.js"></script>
+</body>
+</html>
