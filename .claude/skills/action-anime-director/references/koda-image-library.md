@@ -1,16 +1,129 @@
 # Kōda 이미지 프롬프트 라이브러리 (자동 생성)
 `scripts/koda_library.py`가 만든다. 직접 고치지 않는다. 원문은 연구·개인 참고용으로만 쓴다.
-- 항목 222개 / Midjourney 프롬프트 159개 / 캐릭터 시트 프롬프트 53개
+- 항목 232개 / Midjourney 프롬프트 163개 / 캐릭터 시트 프롬프트 53개
 
 ## 자주 쓰는 sref 코드
 `74117661`×12, `2688930422`×8, `3732263062`×8, `8302900945`×8, `1448908625`×7, `2116795492`×6, `387469134`×6, `2880399749`×5, `3115865291`×5, `3123598145`×5, `3207844525`×5, `1030259122`×5, `3626095821`×5, `2343335488`×5, `4107378996`×4, `1798619238`×4, `2523336497`×4, `3295658070`×4, `3999913842`×3, `5452206699`×3, `2432028955`×2, `2004805678`×2, `2757484790`×2, `572464382`×2, `452368747`×2
 
 ## 자주 쓰는 profile 코드
-`txgf1m1`×40, `8mk73g6`×21, `kxxcnp9`×6, `oqw5d6p`×6, `ycjrvus`×6, `989pqwr`×6, `d3zvtyp`×4, `9f11bbt`×4, `7v4i3wf`×4, `65is5xq`×4, `4jwgytn`×4, `dhhgpsh`×4, `9vmxxbs`×4, `5goyziq`×4, `hwqt7sd`×4, `ctrgi65`×4, `am5spni`×4, `xbe6lh6`×4, `ihl81mk`×4, `71b4wk5`×4, `ov6stn7`×3, `4ys8t3y`×3, `9qy185c`×3, `u9wgd9s`×2, `vw9e8cw`×2
+`txgf1m1`×40, `8mk73g6`×21, `kxxcnp9`×7, `oqw5d6p`×6, `ycjrvus`×6, `989pqwr`×6, `d3zvtyp`×5, `9f11bbt`×4, `7v4i3wf`×4, `65is5xq`×4, `4jwgytn`×4, `dhhgpsh`×4, `9vmxxbs`×4, `5goyziq`×4, `hwqt7sd`×4, `ctrgi65`×4, `am5spni`×4, `xbe6lh6`×4, `ihl81mk`×4, `71b4wk5`×4, `ki97uls`×3, `ov6stn7`×3, `4ys8t3y`×3, `9qy185c`×3, `lw6hh8e`×2
 
 ---
 
-### Mon Oct 12 18:26 · ♥65 · character_sheet
+### Mon Oct 26 15:47 · ♥22 · midjourney
+https://x.com/aimikoda/status/2114745768234144127
+
+> Opus 5.5 Prompt:  Create a spectacular 4:3 Jujutsu Kaisen AMV centered on Satoru Gojo, using the supplied images and music. Match the final video's duration exactly to the full soundtrack.  EDITING & 
+
+---
+
+### Mon Oct 26 15:46 · ♥206 · midjourney
+https://x.com/aimikoda/status/2114745463736082828
+
+> Satoru Gojo Edit with Claude Opus 5.5  This time, I didn't use any video footage, just images I created with Midjourney and a music file.  Prompt in the replies. 👇
+
+---
+
+### Wed Oct 21 09:57 · ♥17 · midjourney
+https://x.com/aimikoda/status/2112845747641074072
+
+> Created with Claude Opus 5.5. Base image created with Midjourney v8.2  Opus 5.5 Prompt: I want to learn how to draw the attached image by hand, in its own art style.  Create a step-by-step drawing tut
+
+---
+
+### Tue Oct 20 10:02 · ♥125 · midjourney
+https://x.com/aimikoda/status/2112484697095983374
+
+> Units (Midjourney v8.2 + Opus 5.5)
+
+---
+
+### Mon Oct 19 10:43 · ♥123 · midjourney, video
+https://x.com/aimikoda/status/2112132620100215038
+
+> Midjourney v8.2 Blend for this style.  --sref 1689088019 2622224214 2423811400 3060113345 --profile kxxcnp9 --stylize 1000  If you use it together with the visual style section of the prompt in the qu
+
+**Midjourney**
+```
+--sref 1689088019 2622224214 2423811400 3060113345 --profile kxxcnp9 --stylize 1000
+```
+
+이미지: [1](https://pbs.twimg.com/media/HU_NIenXQAAOSJ7.jpg?name=orig) · [2](https://pbs.twimg.com/media/HU_NJHWWcAAHMIm.jpg?name=orig) · [3](https://pbs.twimg.com/media/HU_NKAoXUAAJBEn.jpg?name=orig) · [4](https://pbs.twimg.com/media/HU_NK22WgAA9lC3.jpg?name=orig)
+
+같은 스레드에 영상 프롬프트 있음 → 이미지와 영상을 짝으로 참고
+
+---
+
+### Fri Oct 16 10:07 · ♥340 · midjourney
+https://x.com/aimikoda/status/2111036186961572129
+
+> Midjourney v8.2 - New Blend  This one generates unique characters and beautiful environments.  --sref 1505168635 3664652813 1916012500 --profile d3zvtyp --stylize 1000
+
+**Midjourney**
+```
+--sref 1505168635 3664652813 1916012500 --profile d3zvtyp --stylize 1000
+```
+
+이미지: [1](https://pbs.twimg.com/media/HUvn2CdWEAEoidr.jpg?name=orig) · [2](https://pbs.twimg.com/media/HUvn3zeXAAA50HU.jpg?name=orig) · [3](https://pbs.twimg.com/media/HUvn5cYXYAA3d36.jpg?name=orig) · [4](https://pbs.twimg.com/media/HUvn6wtWEAAfRPP.jpg?name=orig)
+
+---
+
+### Thu Oct 15 16:53 · ♥51 · image_model
+https://x.com/aimikoda/status/2110776047054590369
+
+> Krea 3 is here!  Quality on par with Nano Banana Pro but 4x faster and at just a quarter of the cost. That means more room to experiment and iterate without spending so much time or money on each try.
+
+**이미지 모델 프롬프트**
+```
+Krea 3 is here!
+
+Quality on par with Nano Banana Pro but 4x faster and at just a quarter of the cost. That means more room to experiment and iterate without spending so much time or money on each try.
+```
+
+---
+
+### Wed Oct 14 19:19 · ♥145 · midjourney, video
+https://x.com/aimikoda/status/2110450438638342283
+
+> Before Sunrise  Characters by Midjourney v8.2 Scene written by Gemini 4 Argon Prompt crafted by Claude Opus 5.5 Animated with Seedance 2.5 Japanese subtitles added in CapCut, English subtitles by Opus
+
+같은 스레드에 영상 프롬프트 있음 → 이미지와 영상을 짝으로 참고
+
+---
+
+### Wed Oct 14 13:22 · ♥23 · midjourney, video
+https://x.com/aimikoda/status/2110360670944317651
+
+> Midjourney v8.2: --raw --profile lw6hh8e ki97uls  Opus 5.5 Prompt: Edit this video, add color grading, dynamic cuts, transitions, visual effects, motion graphics and impactful editing to give it that 
+
+**Midjourney**
+```
+Midjourney v8.2: --raw --profile lw6hh8e ki97uls
+```
+
+이미지: [1](https://pbs.twimg.com/media/HUmBvpvWEAAcvG_.jpg?name=orig) · [2](https://pbs.twimg.com/media/HUmBwozXEAALrnO.jpg?name=orig)
+
+같은 스레드에 영상 프롬프트 있음 → 이미지와 영상을 짝으로 참고
+
+---
+
+### Wed Oct 14 13:20 · ♥340 · midjourney, video
+https://x.com/aimikoda/status/2110360021988982817
+
+> Midjourney v8.2 + Seedance 2.5 + Opus 5.5  Started by creating the characters in Midjourney, brought them to life with Seedance then had Opus handle the editing.  Original video, Midjourney style and 
+
+**Midjourney**
+```
+Midjourney v8.2: --raw --profile lw6hh8e ki97uls
+```
+
+이미지: [1](https://pbs.twimg.com/media/HUmBvpvWEAAcvG_.jpg?name=orig) · [2](https://pbs.twimg.com/media/HUmBwozXEAALrnO.jpg?name=orig)
+
+같은 스레드에 영상 프롬프트 있음 → 이미지와 영상을 짝으로 참고
+
+---
+
+### Mon Oct 12 18:26 · ♥122 · character_sheet
 https://x.com/aimikoda/status/2109712205277008187
 
 > Character sheet with Krea 3
@@ -24,7 +137,7 @@ Character sheet with Krea 3
 
 ---
 
-### Mon Oct 12 10:04 · ♥111 · midjourney
+### Mon Oct 12 10:04 · ♥134 · midjourney
 https://x.com/aimikoda/status/2109585973948432676
 
 > Midjourney v8.2  Love this mix of stylized 3D anime, bold neon colors and cyberpunk vibes.  --sref 3282000149 --profile d3zvtyp
@@ -38,7 +151,7 @@ https://x.com/aimikoda/status/2109585973948432676
 
 ---
 
-### Sun Oct 11 10:51 · ♥23 · midjourney, video
+### Sun Oct 11 10:51 · ♥25 · midjourney, video
 https://x.com/aimikoda/status/2109235438875505149
 
 > Seedance 2.5 Prompt: Premium dark fantasy 2D anime cinematography fused with gothic ink illustration, high-sakuga sword choreography and experimental action filmmaking. Preserve the reference aestheti
@@ -54,7 +167,7 @@ https://x.com/aimikoda/status/2109235438875505149
 
 ---
 
-### Sun Oct 11 10:50 · ♥313 · midjourney, video
+### Sun Oct 11 10:50 · ♥338 · midjourney, video
 https://x.com/aimikoda/status/2109235247162245339
 
 > Midjourney v8.2 + Seedance 2.5  Really love how this sref animates.  --sref 2432028955 --profile d3zvtyp  Seedance 2.5 Prompt in the replies.
@@ -70,7 +183,7 @@ https://x.com/aimikoda/status/2109235247162245339
 
 ---
 
-### Sat Oct 10 18:29 · ♥168 · midjourney
+### Sat Oct 10 18:29 · ♥173 · midjourney
 https://x.com/aimikoda/status/2108988276959064291
 
 > Midjourney v8.2   --sref 1532808791 --profile d3zvtyp
@@ -84,7 +197,7 @@ https://x.com/aimikoda/status/2108988276959064291
 
 ---
 
-### Fri Oct 09 22:12 · ♥166 · image_model
+### Fri Oct 09 22:12 · ♥171 · image_model
 https://x.com/aimikoda/status/2108682052665290854
 
 > Nano Banana 2.1  Prompt: recreate this image as a collage made from newspaper parts.
@@ -100,7 +213,7 @@ Prompt: recreate this image as a collage made from newspaper parts.
 
 ---
 
-### Thu Oct 08 12:39 · ♥505 · image_model, video
+### Thu Oct 08 12:39 · ♥506 · image_model, video
 https://x.com/aimikoda/status/2108175425524670621
 
 > This blend animates really well.  Created with Seedance 2.5 then added some impact frames with GPT-6 Astra.
@@ -130,7 +243,7 @@ https://x.com/aimikoda/status/2108115988650856461
 
 ---
 
-### Wed Oct 07 13:39 · ♥357 · midjourney, video
+### Wed Oct 07 13:39 · ♥361 · midjourney, video
 https://x.com/aimikoda/status/2107828212042473886
 
 > Trying out a new format.  The first 15 seconds were made with Opus 5.5 through Antigravity. It hit the limit before finishing, so I switched to Gemini 3.8 Flash for the rest since most of the code was
@@ -167,7 +280,7 @@ https://x.com/aimikoda/status/2106638080685834407
 
 ---
 
-### Sat Oct 03 06:49 · ♥137 · midjourney
+### Sat Oct 03 06:49 · ♥138 · midjourney
 https://x.com/aimikoda/status/2106275530521645098
 
 > Midjourney v8.2 Prompt and Style mix for these types of characters.  Princess with a slender sword, sneakers, kungfu pants, full body character design, mid-air action pose, angular painterly character
@@ -181,7 +294,7 @@ Princess with a slender sword, sneakers, kungfu pants, full body character desig
 
 ---
 
-### Thu Oct 01 06:45 · ♥159 · midjourney
+### Thu Oct 01 06:45 · ♥157 · midjourney
 https://x.com/aimikoda/status/2105549602380546449
 
 > Midjourney v8.2  --sref 4107378996 --profile 24zcv9k ov6stn7 --stylize 1000
@@ -212,7 +325,7 @@ The girl is already deep into an intense match, hammering rapid key combinations
 
 ---
 
-### Wed Sep 30 13:51 · ♥274 · midjourney, video
+### Wed Sep 30 13:51 · ♥272 · midjourney, video
 https://x.com/aimikoda/status/2105294480161095994
 
 > The fight for lane control.  Created with Midjourney + Seedance 2.5  Style mix and prompts are in the replies. ↓
@@ -245,7 +358,7 @@ Midjourney v8.2:  dawn --ar 16:9 --raw --sref 2116795492 452368747 --profile 9f1
 
 ---
 
-### Tue Sep 29 06:31 · ♥207 · midjourney, video
+### Tue Sep 29 06:31 · ♥205 · midjourney, video
 https://x.com/aimikoda/status/2104821462964044004
 
 > Just heading to work.  Created with Midjourney v8.2 + Seedance 2.5  Prompts in the replies. 👇

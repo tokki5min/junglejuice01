@@ -134,6 +134,22 @@
 - "Drop all sound for the brief pause" → 마지막 일격 직전 정적
 - 대사는 `{중괄호}`, 효과음은 `<꺾쇠>`
 
+## 10-13 ~ 10-27 추가분 (Seedance 2.5 스레드 4개)
+- 연속 사이클 "Energy:" 단락(싸움): "The camera never rests and changes its move every second or two: it launches through the fighters, crash-zooms onto a hit, whip-pans to the next, barrel-rolls with a thrown body, spirals around crossing limbs, dives under kicks, rides the shockwave of each blast" / "mechanical fists and spiked soles pass inches from the lens" / "Once per shot a strike comes straight at the lens."
+- 타격 공식: "impact frame, the struck body whips away in a smear, elastic recoil, immediate re-entry" / "feet always plant, push, leap, or roll, never slide" / 금지 꼬리에 "no sliding or skidding across the floor" 추가.
+- 거리 규칙(다인 전투): "Whenever they close, one body is nearer the camera and the other clearly behind it with air between." + "Mina starts screen left, Rue screen right."
+- 색 리키: "flat blue and teal backgrounds that flash hot pink or orange on impact" / "Each big blast rekeys the palette: steel gray, orange, blue-white, black with stars."
+- 폭발은 배경이 아니다: "every one of them changes the fight: it throws a fighter off her line, opens a hole in the floor... No explosion is background; each one is used or suffered inside the next second." / "Speed ramp on every blast: two-frame hit-stop, then the camera accelerates with the shockwave."
+- 레퍼런스 줄 형식: "@[char1 ref]: Name. 머리, 상의, 하의, 신발, 소품(손 위치까지)" — 총은 "Her only gun is one long black revolver, always in her right hand; her hip holster stays empty."
+- 구조: "Scene N: Continuous, [장소]." 아래 "Shot N (0-3s):" + 컷 지점 "Cut as he leans forward." / "Cut as the line ends." 대사 한 줄은 샷 안에 "The brute's line (hungry, amused): \"...\"".
+- 샌데비스탄(슬로 + 잔상): 장면 전체를 "extreme slow motion. The image turns cooler and desaturated with a soft dark vignette; dust, pebbles and water drops hang almost still"로 열고, "five or six separate see-through copies of her whole body, each frozen in an earlier pose, spaced along her path, edged with a faint cyan and pink fringe; distinct copies, not speed lines." 사운드는 "sound sinks to a muffled drone and slow heartbeats". 요청 구성은 "in slow motion, a rewind, then the same action at full speed"(슬로→되감기→원속).
+- 크기 차 앵커: "the brute, three times her height" + 측면 샷 좌우 고정("In side views she is at screen left facing screen right").
+- 도스테 무한 줌: "An infinite Droste-effect zoom through ten ... worlds ... Each world hides one small detail ... inside that detail the whole next world is already painted in miniature." "exactly three seconds per world, never accelerating, never slowing" / "The tenth world's detail contains the first world, so the clip loops." / "the camera curves gently and smoothly toward it, bringing it to the center only as it fills the frame." 금지: "No cuts, crossfades, or fades. No speed changes ... No hovering or still frames."
+- 실험 프롬프트(레퍼 이미지 한 장): "Tell a cinematic story showing what happened before and after the moment depicted in @[ref image]. Use at least 10 distinct cuts ... Treat @[ref image] as a pivotal moment, not the beginning or end. Strictly preserve its visual style, character designs, colors, lighting and rendering throughout. Prioritize visual storytelling over exposition."
+- 코다 교훈: "you'll get different results every time ... it always makes more sense to test in draft mode with shorter clips first." 같은 중국어 샷 본문이 영어 틀 안에 섞여도 통과(10-18 스레드는 Shot 본문을 중국어로 씀) — 참고만, 우리 쓰는 법은 바꾸지 않는다.
+- 후반 편집은 Seedance 원본 + Claude Opus 5.5(코드 편집)로 분리한다: 비트 싱크 편집, 포스터 그리드(20×12 시간차 셀), 만화 컷·임팩트 프레임, 칼라 그레이딩, 글리치 아트, HUD·키네틱 타이포. 영상 프롬프트와 별개의 후반 공정이며 프롬프트는 "Edit this video in the style of an anime opening. Add color grading, dynamic cuts, transitions, visual effects, motion graphics and impactful editing"처럼 한 줄도 통한다.
+- Midjourney: v8.2 블렌드 두 개 — `--sref 1505168635 3664652813 1916012500 --profile d3zvtyp --stylize 1000`(캐릭터+환경), `--sref 1689088019 2622224214 2423811400 3060113345 --profile kxxcnp9 --stylize 1000`(영상 스타일 섹션과 함께 쓰면 Seedance에서 같은 화풍). 10-10 이후 단일 sref·stylize 생략 패턴 외에 다시 sref 3~4개 + stylize 1000 블렌드가 나왔다.
+
 ## 코다 본인의 교훈 (원문)
 - "if you give Seedance 2.5 more context than the duration can realistically handle, it tends to compensate by speeding up the scenes ... most of the first version came out feeling fast-forwarded."
 - "Sometimes the difference between a flat scene and a dynamic one is just a little more speed." (편집에서 1.30배속)

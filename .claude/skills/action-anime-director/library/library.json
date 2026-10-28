@@ -3,7 +3,7 @@
   "id": "2108175425524670621",
   "url": "https://x.com/aimikoda/status/2108175425524670621",
   "date": "Thu Oct 08 12:39:24 +0000 2026",
-  "likes": 505,
+  "likes": 506,
   "kinds": [
    "image_model",
    "video"
@@ -163,7 +163,7 @@
   "id": "2106275530521645098",
   "url": "https://x.com/aimikoda/status/2106275530521645098",
   "date": "Sat Oct 03 06:49:53 +0000 2026",
-  "likes": 137,
+  "likes": 138,
   "kinds": [
    "midjourney"
   ],
@@ -200,7 +200,7 @@
   "id": "2105549602380546449",
   "url": "https://x.com/aimikoda/status/2105549602380546449",
   "date": "Thu Oct 01 06:45:19 +0000 2026",
-  "likes": 159,
+  "likes": 157,
   "kinds": [
    "midjourney"
   ],
@@ -246,7 +246,7 @@
   "id": "2105294480161095994",
   "url": "https://x.com/aimikoda/status/2105294480161095994",
   "date": "Wed Sep 30 13:51:33 +0000 2026",
-  "likes": 274,
+  "likes": 272,
   "kinds": [
    "midjourney",
    "video"
@@ -326,7 +326,7 @@
   "id": "2104821462964044004",
   "url": "https://x.com/aimikoda/status/2104821462964044004",
   "date": "Tue Sep 29 06:31:57 +0000 2026",
-  "likes": 207,
+  "likes": 205,
   "kinds": [
    "midjourney",
    "video"
@@ -7584,7 +7584,7 @@
   "id": "2109585973948432676",
   "url": "https://x.com/aimikoda/status/2109585973948432676",
   "date": "Mon Oct 12 10:04:25 +0000 2026",
-  "likes": 111,
+  "likes": 134,
   "kinds": [
    "midjourney"
   ],
@@ -7629,7 +7629,7 @@
   "id": "2109235247162245339",
   "url": "https://x.com/aimikoda/status/2109235247162245339",
   "date": "Sun Oct 11 10:50:45 +0000 2026",
-  "likes": 313,
+  "likes": 338,
   "kinds": [
    "midjourney",
    "video"
@@ -7667,7 +7667,7 @@
   "id": "2109235438875505149",
   "url": "https://x.com/aimikoda/status/2109235438875505149",
   "date": "Sun Oct 11 10:51:30 +0000 2026",
-  "likes": 23,
+  "likes": 25,
   "kinds": [
    "midjourney",
    "video"
@@ -7705,7 +7705,7 @@
   "id": "2108988276959064291",
   "url": "https://x.com/aimikoda/status/2108988276959064291",
   "date": "Sat Oct 10 18:29:22 +0000 2026",
-  "likes": 168,
+  "likes": 173,
   "kinds": [
    "midjourney"
   ],
@@ -7750,7 +7750,7 @@
   "id": "2108682052665290854",
   "url": "https://x.com/aimikoda/status/2108682052665290854",
   "date": "Fri Oct 09 22:12:33 +0000 2026",
-  "likes": 166,
+  "likes": 171,
   "kinds": [
    "image_model"
   ],
@@ -7779,7 +7779,7 @@
   "id": "2107828212042473886",
   "url": "https://x.com/aimikoda/status/2107828212042473886",
   "date": "Wed Oct 07 13:39:41 +0000 2026",
-  "likes": 357,
+  "likes": 361,
   "kinds": [
    "midjourney",
    "video"
@@ -7798,7 +7798,7 @@
   "id": "2109712205277008187",
   "url": "https://x.com/aimikoda/status/2109712205277008187",
   "date": "Mon Oct 12 18:26:00 +0000 2026",
-  "likes": 65,
+  "likes": 122,
   "kinds": [
    "character_sheet"
   ],
@@ -7817,5 +7817,288 @@
   ],
   "video_thumbs": [],
   "summary": "Character sheet with Krea 3"
+ },
+ "2114745463736082828": {
+  "id": "2114745463736082828",
+  "url": "https://x.com/aimikoda/status/2114745463736082828",
+  "date": "Mon Oct 26 15:46:23 +0000 2026",
+  "likes": 206,
+  "kinds": [
+   "midjourney"
+  ],
+  "midjourney_prompts": [],
+  "sheet_prompts": [],
+  "image_model_prompts": [],
+  "paired_video_prompt": false,
+  "images": [],
+  "video_thumbs": [
+   "https://pbs.twimg.com/amplify_video_thumb/2114745209930084352/img/OCWHZhwOhK7RXlhh.jpg"
+  ],
+  "summary": "Satoru Gojo Edit with Claude Opus 5.5\n\nThis time, I didn't use any video footage, just images I created with Midjourney and a music file.\n\nPrompt in the replies. 👇"
+ },
+ "2114745768234144127": {
+  "id": "2114745768234144127",
+  "url": "https://x.com/aimikoda/status/2114745768234144127",
+  "date": "Mon Oct 26 15:47:35 +0000 2026",
+  "likes": 22,
+  "kinds": [
+   "midjourney"
+  ],
+  "midjourney_prompts": [],
+  "sheet_prompts": [],
+  "image_model_prompts": [],
+  "paired_video_prompt": false,
+  "images": [],
+  "video_thumbs": [
+   "https://pbs.twimg.com/amplify_video_thumb/2114745209930084352/img/OCWHZhwOhK7RXlhh.jpg"
+  ],
+  "summary": "Opus 5.5 Prompt: \nCreate a spectacular 4:3 Jujutsu Kaisen AMV centered on Satoru Gojo, using the supplied images and music. Match the final video's duration exactly to the full soundtrack.\n\nEDITING & "
+ },
+ "2112845747641074072": {
+  "id": "2112845747641074072",
+  "url": "https://x.com/aimikoda/status/2112845747641074072",
+  "date": "Wed Oct 21 09:57:35 +0000 2026",
+  "likes": 17,
+  "kinds": [
+   "midjourney"
+  ],
+  "midjourney_prompts": [],
+  "sheet_prompts": [],
+  "image_model_prompts": [],
+  "paired_video_prompt": false,
+  "images": [],
+  "video_thumbs": [
+   "https://pbs.twimg.com/amplify_video_thumb/2112844444793786369/img/BM3paxsBtc4bcjd2.jpg"
+  ],
+  "summary": "Created with Claude Opus 5.5. Base image created with Midjourney v8.2\n\nOpus 5.5 Prompt:\nI want to learn how to draw the attached image by hand, in its own art style.\n\nCreate a step-by-step drawing tut"
+ },
+ "2112484697095983374": {
+  "id": "2112484697095983374",
+  "url": "https://x.com/aimikoda/status/2112484697095983374",
+  "date": "Tue Oct 20 10:02:54 +0000 2026",
+  "likes": 125,
+  "kinds": [
+   "midjourney"
+  ],
+  "midjourney_prompts": [],
+  "sheet_prompts": [],
+  "image_model_prompts": [],
+  "paired_video_prompt": false,
+  "images": [],
+  "video_thumbs": [
+   "https://pbs.twimg.com/tweet_video_thumb/HVENY5zX0AA5aZ8.jpg",
+   "https://pbs.twimg.com/tweet_video_thumb/HVENaBiWUAA6Pfx.jpg"
+  ],
+  "summary": "Units (Midjourney v8.2 + Opus 5.5)"
+ },
+ "2112132620100215038": {
+  "id": "2112132620100215038",
+  "url": "https://x.com/aimikoda/status/2112132620100215038",
+  "date": "Mon Oct 19 10:43:52 +0000 2026",
+  "likes": 123,
+  "kinds": [
+   "midjourney",
+   "video"
+  ],
+  "midjourney_prompts": [
+   {
+    "text": "--sref 1689088019 2622224214 2423811400 3060113345 --profile kxxcnp9 --stylize 1000",
+    "params": {
+     "sref": "1689088019 2622224214 2423811400 3060113345",
+     "profile": "kxxcnp9",
+     "stylize": "1000"
+    }
+   }
+  ],
+  "sheet_prompts": [],
+  "image_model_prompts": [],
+  "paired_video_prompt": true,
+  "images": [
+   {
+    "url": "https://pbs.twimg.com/media/HU_NIenXQAAOSJ7.jpg?name=orig",
+    "w": 1536,
+    "h": 3072
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HU_NJHWWcAAHMIm.jpg?name=orig",
+    "w": 1536,
+    "h": 3072
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HU_NKAoXUAAJBEn.jpg?name=orig",
+    "w": 1536,
+    "h": 3072
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HU_NK22WgAA9lC3.jpg?name=orig",
+    "w": 1536,
+    "h": 3072
+   }
+  ],
+  "video_thumbs": [],
+  "summary": "Midjourney v8.2 Blend for this style.\n\n--sref 1689088019 2622224214 2423811400 3060113345 --profile kxxcnp9 --stylize 1000\n\nIf you use it together with the visual style section of the prompt in the qu"
+ },
+ "2111036186961572129": {
+  "id": "2111036186961572129",
+  "url": "https://x.com/aimikoda/status/2111036186961572129",
+  "date": "Fri Oct 16 10:07:02 +0000 2026",
+  "likes": 340,
+  "kinds": [
+   "midjourney"
+  ],
+  "midjourney_prompts": [
+   {
+    "text": "--sref 1505168635 3664652813 1916012500 --profile d3zvtyp --stylize 1000",
+    "params": {
+     "sref": "1505168635 3664652813 1916012500",
+     "profile": "d3zvtyp",
+     "stylize": "1000"
+    }
+   }
+  ],
+  "sheet_prompts": [],
+  "image_model_prompts": [],
+  "paired_video_prompt": false,
+  "images": [
+   {
+    "url": "https://pbs.twimg.com/media/HUvn2CdWEAEoidr.jpg?name=orig",
+    "w": 1632,
+    "h": 2912
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HUvn3zeXAAA50HU.jpg?name=orig",
+    "w": 1632,
+    "h": 2912
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HUvn5cYXYAA3d36.jpg?name=orig",
+    "w": 1632,
+    "h": 2912
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HUvn6wtWEAAfRPP.jpg?name=orig",
+    "w": 1632,
+    "h": 2912
+   }
+  ],
+  "video_thumbs": [],
+  "summary": "Midjourney v8.2 - New Blend\n\nThis one generates unique characters and beautiful environments.\n\n--sref 1505168635 3664652813 1916012500 --profile d3zvtyp --stylize 1000"
+ },
+ "2110776047054590369": {
+  "id": "2110776047054590369",
+  "url": "https://x.com/aimikoda/status/2110776047054590369",
+  "date": "Thu Oct 15 16:53:20 +0000 2026",
+  "likes": 51,
+  "kinds": [
+   "image_model"
+  ],
+  "midjourney_prompts": [],
+  "sheet_prompts": [],
+  "image_model_prompts": [
+   "Krea 3 is here!\n\nQuality on par with Nano Banana Pro but 4x faster and at just a quarter of the cost. That means more room to experiment and iterate without spending so much time or money on each try."
+  ],
+  "paired_video_prompt": false,
+  "images": [],
+  "video_thumbs": [
+   "https://pbs.twimg.com/amplify_video_thumb/2110775679797084160/img/PRJlJIYYCGf845Fa.jpg"
+  ],
+  "summary": "Krea 3 is here!\n\nQuality on par with Nano Banana Pro but 4x faster and at just a quarter of the cost. That means more room to experiment and iterate without spending so much time or money on each try."
+ },
+ "2110450438638342283": {
+  "id": "2110450438638342283",
+  "url": "https://x.com/aimikoda/status/2110450438638342283",
+  "date": "Wed Oct 14 19:19:29 +0000 2026",
+  "likes": 145,
+  "kinds": [
+   "midjourney",
+   "video"
+  ],
+  "midjourney_prompts": [],
+  "sheet_prompts": [],
+  "image_model_prompts": [],
+  "paired_video_prompt": true,
+  "images": [],
+  "video_thumbs": [
+   "https://pbs.twimg.com/amplify_video_thumb/2110448951568523265/img/TFK9Fv6ODRswGzqd.jpg"
+  ],
+  "summary": "Before Sunrise\n\nCharacters by Midjourney v8.2\nScene written by Gemini 4 Argon\nPrompt crafted by Claude Opus 5.5\nAnimated with Seedance 2.5\nJapanese subtitles added in CapCut, English subtitles by Opus"
+ },
+ "2110360021988982817": {
+  "id": "2110360021988982817",
+  "url": "https://x.com/aimikoda/status/2110360021988982817",
+  "date": "Wed Oct 14 13:20:12 +0000 2026",
+  "likes": 340,
+  "kinds": [
+   "midjourney",
+   "video"
+  ],
+  "midjourney_prompts": [
+   {
+    "text": "Midjourney v8.2: --raw --profile lw6hh8e ki97uls",
+    "params": {
+     "profile": "lw6hh8e ki97uls",
+     "raw": true
+    }
+   }
+  ],
+  "sheet_prompts": [],
+  "image_model_prompts": [],
+  "paired_video_prompt": true,
+  "images": [
+   {
+    "url": "https://pbs.twimg.com/media/HUmBvpvWEAAcvG_.jpg?name=orig",
+    "w": 1536,
+    "h": 3072
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HUmBwozXEAALrnO.jpg?name=orig",
+    "w": 1536,
+    "h": 3072
+   }
+  ],
+  "video_thumbs": [
+   "https://pbs.twimg.com/amplify_video_thumb/2110359189960695808/img/nmmNXA8hEng2RDGK.jpg",
+   "https://pbs.twimg.com/amplify_video_thumb/2110360509690048512/img/bb3BB5f521h3Zga4.jpg"
+  ],
+  "summary": "Midjourney v8.2 + Seedance 2.5 + Opus 5.5\n\nStarted by creating the characters in Midjourney, brought them to life with Seedance then had Opus handle the editing.\n\nOriginal video, Midjourney style and "
+ },
+ "2110360670944317651": {
+  "id": "2110360670944317651",
+  "url": "https://x.com/aimikoda/status/2110360670944317651",
+  "date": "Wed Oct 14 13:22:47 +0000 2026",
+  "likes": 23,
+  "kinds": [
+   "midjourney",
+   "video"
+  ],
+  "midjourney_prompts": [
+   {
+    "text": "Midjourney v8.2: --raw --profile lw6hh8e ki97uls",
+    "params": {
+     "profile": "lw6hh8e ki97uls",
+     "raw": true
+    }
+   }
+  ],
+  "sheet_prompts": [],
+  "image_model_prompts": [],
+  "paired_video_prompt": true,
+  "images": [
+   {
+    "url": "https://pbs.twimg.com/media/HUmBvpvWEAAcvG_.jpg?name=orig",
+    "w": 1536,
+    "h": 3072
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HUmBwozXEAALrnO.jpg?name=orig",
+    "w": 1536,
+    "h": 3072
+   }
+  ],
+  "video_thumbs": [
+   "https://pbs.twimg.com/amplify_video_thumb/2110360509690048512/img/bb3BB5f521h3Zga4.jpg",
+   "https://pbs.twimg.com/amplify_video_thumb/2110359189960695808/img/nmmNXA8hEng2RDGK.jpg"
+  ],
+  "summary": "Midjourney v8.2: --raw --profile lw6hh8e ki97uls\n\nOpus 5.5 Prompt: Edit this video, add color grading, dynamic cuts, transitions, visual effects, motion graphics and impactful editing to give it that "
  }
 }

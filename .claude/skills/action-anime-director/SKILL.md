@@ -103,6 +103,7 @@ LOCKS            무기·손·인원 수·의상 상태·씬 간 연속성. 각 
 - **속도를 부재로 표현**: `the camera catches only fragments, impacts and consequences, while she is already somewhere else.`
 - **셋업 → 회수(공포 액션, 코다 10-11)**: 앞 샷에서 놓친 공격이 만든 환경 피해(쪼개진 나무)와 빛·그림자 이상(칼의 그림자가 반대로 휨)을 깔고, 뒤 샷에서 그것을 장애물·결정타로 회수한다. 부상도 끝까지 들고 간다(`left arm held close`). 공포 톤이면 매 샷 Dutch 트래킹, 마지막 컷만 `The camera settles level` 로 수평 복귀. 구조는 `Shot N:` 아래 `Cut:` 하위 컷 3개.
 - **소품 회계·컷 없는 변형(코다 10-12)**: 시작 상태를 따로 적고(`The images define appearance; the [object] starts unprepared.`), 소품 배치를 한 단락 지도로 쓴 뒤 개수는 대문자(`ONE`), 같은 물건은 `THAT SAME`으로 끝까지 추적한다. 녹거나 부서지는 변형은 `Show continuous material loss without a cut, sudden disappearance or concealing smoke.` + 단계별 소실 + 끝 상태 확인(`no fragment remains`). 무기가 부서지거나 사라지는 액션에도 그대로 쓴다.
+- **샌데비스탄 슬로 + 잔상·도스테 무한 줌(코다 10-20·10-24)**: 슬로 구간은 장면 머리에 "extreme slow motion, cooler desaturated, dust and water drops hang almost still"로 열고 잔상은 "five or six separate see-through copies of her whole body, each frozen in an earlier pose... distinct copies, not speed lines"로 쓴다. 무한 줌은 세계당 시간을 못박고("exactly three seconds per world") 마지막 세계가 첫 세계를 품어 루프시킨다. 상세는 phrasebook "10-13 ~ 10-27 추가분".
 - **잔상 되감기 / 충전 후 방출 / 즉발 빔** 문구는 phrasebook 참조.
 - **긴 단편 파이프라인(코다)**: 전체 이야기를 30초 480p로 먼저 테스트 → 프레임 캡처로 캐릭터 시트·빈 배경 플레이트 → 3개 프롬프트로 분할 → 깨진 10초만 재생성 → 이전 결과 프레임을 다음 구간 레퍼런스로.
 
