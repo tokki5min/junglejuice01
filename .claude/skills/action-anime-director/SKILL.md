@@ -97,13 +97,15 @@ LOCKS            무기·손·인원 수·의상 상태·씬 간 연속성. 각 
 
 ## 4. 특수 기법 레시피
 
-- **프레임 브레이크(팝아웃)**: `COMPOSITING ORDER, BACK TO FRONT: 1. background 2. two black letterbox bars 3. foreground character` + `The foreground character is NOT confined to that window` + 고정 카메라. 바 두께는 모델이 정한다(코다: 퍼센트 지정해도 흔들림). 카메라를 움직이면 바가 휜다.
+- **프레임 브레이크(팝아웃)**: `COMPOSITING ORDER, BACK TO FRONT: 1. background 2. two black letterbox bars 3. foreground character` + `The foreground character is NOT confined to that window` + 고정 카메라. 바 두께는 모델이 정한다(코다: 퍼센트 지정해도 흔들림). 카메라를 움직이면 바가 휜다. 코다 원문(11-01, Pika H3 Flex)은 레퍼 두 장(캐릭터 + 레터박스 구도 이미지)에 `exactly TWO thick, static black horizontal letterbox bars` + `the parts of her that cross the lower bar are drawn in front of it` + 손 → 두 번째 손 → 머리·몸 순서로 단계적으로 나온다. `No cuts, zooms, or camera movement. No vertical borders or picture frames.` 컷 없는 원샷은 `From 0 to 3 seconds, ... From 3 to 5 seconds, ...`로 초 구간을 나눠 쓴다.
 - **칼 궤적 전환**: `Blade trails mask seamless cuts between shots` / `Her rising arc eclipses the lens.`
 - **텔레포트**: 사라진 자리는 비워 두고(`Every disappearance leaves clearly empty space`) 도착은 공격 도중(`She reforms mid-attack`).
 - **속도를 부재로 표현**: `the camera catches only fragments, impacts and consequences, while she is already somewhere else.`
 - **셋업 → 회수(공포 액션, 코다 10-11)**: 앞 샷에서 놓친 공격이 만든 환경 피해(쪼개진 나무)와 빛·그림자 이상(칼의 그림자가 반대로 휨)을 깔고, 뒤 샷에서 그것을 장애물·결정타로 회수한다. 부상도 끝까지 들고 간다(`left arm held close`). 공포 톤이면 매 샷 Dutch 트래킹, 마지막 컷만 `The camera settles level` 로 수평 복귀. 구조는 `Shot N:` 아래 `Cut:` 하위 컷 3개.
 - **소품 회계·컷 없는 변형(코다 10-12)**: 시작 상태를 따로 적고(`The images define appearance; the [object] starts unprepared.`), 소품 배치를 한 단락 지도로 쓴 뒤 개수는 대문자(`ONE`), 같은 물건은 `THAT SAME`으로 끝까지 추적한다. 녹거나 부서지는 변형은 `Show continuous material loss without a cut, sudden disappearance or concealing smoke.` + 단계별 소실 + 끝 상태 확인(`no fragment remains`). 무기가 부서지거나 사라지는 액션에도 그대로 쓴다.
 - **샌데비스탄 슬로 + 잔상·도스테 무한 줌(코다 10-20·10-24)**: 슬로 구간은 장면 머리에 "extreme slow motion, cooler desaturated, dust and water drops hang almost still"로 열고 잔상은 "five or six separate see-through copies of her whole body, each frozen in an earlier pose... distinct copies, not speed lines"로 쓴다. 무한 줌은 세계당 시간을 못박고("exactly three seconds per world") 마지막 세계가 첫 세계를 품어 루프시킨다. 상세는 phrasebook "10-13 ~ 10-27 추가분".
+- **장소 전환 격투·초단타 충돌(코다 11-01·11-04)**: 24샷 30초 격투는 장소 3곳을 `白闪硬切`(흰 번쩍 하드 컷)로 넘기고 `切入时战斗已在新场地中继续`(들어갈 때 이미 싸움 중)로 쓴다. 능력(그림자 잠수 등)은 장소 광원 규칙과 짝으로 쓰고, 샷마다 무술 기술 하나 + `切于 …`로 컷 동작 단계를 지정한다. 28샷 충돌은 0.35~2초 마이크로 샷으로 서로 눈·손·발을 번갈아 쌓은 뒤, 폭발 구간 5샷은 인물·실루엣 없이 환경만 발전시키고(`任何人物、肢体和人形剪影均不入画`) 충돌 지점의 방사형 균열을 같은 중심으로 남긴다.
+- **폰 셀카 시점 코미디·상태 회계(코다 10-28·10-30)**: `Shot as a phone front camera video: handheld, restless, constantly bobbing and tilting with whoever holds it`로 열고 폰을 뺏는 동작·떨어지는 순간을 컷 지점으로 쓴다. 매 샷 손·옷·소품 상태를 다시 적는다(`arrives empty-handed`, `strap not yet on her shoulder`, `mouth empty`). 대사는 `Name's line (delivery): "..."` + `Cut on the end of her line.`, 말 안 하는 인물은 `stays silent, lips pressed shut`로 적는다.
 - **잔상 되감기 / 충전 후 방출 / 즉발 빔** 문구는 phrasebook 참조.
 - **긴 단편 파이프라인(코다)**: 전체 이야기를 30초 480p로 먼저 테스트 → 프레임 캡처로 캐릭터 시트·빈 배경 플레이트 → 3개 프롬프트로 분할 → 깨진 10초만 재생성 → 이전 결과 프레임을 다음 구간 레퍼런스로.
 

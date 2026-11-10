@@ -1,30 +1,324 @@
 # Kōda 이미지 프롬프트 라이브러리 (자동 생성)
 `scripts/koda_library.py`가 만든다. 직접 고치지 않는다. 원문은 연구·개인 참고용으로만 쓴다.
-- 항목 232개 / Midjourney 프롬프트 163개 / 캐릭터 시트 프롬프트 53개
+- 항목 246개 / Midjourney 프롬프트 168개 / 캐릭터 시트 프롬프트 58개
 
 ## 자주 쓰는 sref 코드
-`74117661`×12, `2688930422`×8, `3732263062`×8, `8302900945`×8, `1448908625`×7, `2116795492`×6, `387469134`×6, `2880399749`×5, `3115865291`×5, `3123598145`×5, `3207844525`×5, `1030259122`×5, `3626095821`×5, `2343335488`×5, `4107378996`×4, `1798619238`×4, `2523336497`×4, `3295658070`×4, `3999913842`×3, `5452206699`×3, `2432028955`×2, `2004805678`×2, `2757484790`×2, `572464382`×2, `452368747`×2
+`74117661`×12, `1448908625`×9, `387469134`×8, `2688930422`×8, `3732263062`×8, `8302900945`×8, `3123598145`×7, `3207844525`×7, `2116795492`×6, `2880399749`×5, `3115865291`×5, `1030259122`×5, `3626095821`×5, `2343335488`×5, `4107378996`×4, `1798619238`×4, `2523336497`×4, `3295658070`×4, `3999913842`×3, `5452206699`×3, `1687001022`×2, `2432028955`×2, `2004805678`×2, `2757484790`×2, `572464382`×2
 
 ## 자주 쓰는 profile 코드
-`txgf1m1`×40, `8mk73g6`×21, `kxxcnp9`×7, `oqw5d6p`×6, `ycjrvus`×6, `989pqwr`×6, `d3zvtyp`×5, `9f11bbt`×4, `7v4i3wf`×4, `65is5xq`×4, `4jwgytn`×4, `dhhgpsh`×4, `9vmxxbs`×4, `5goyziq`×4, `hwqt7sd`×4, `ctrgi65`×4, `am5spni`×4, `xbe6lh6`×4, `ihl81mk`×4, `71b4wk5`×4, `ki97uls`×3, `ov6stn7`×3, `4ys8t3y`×3, `9qy185c`×3, `lw6hh8e`×2
+`txgf1m1`×40, `8mk73g6`×21, `kxxcnp9`×7, `7v4i3wf`×6, `oqw5d6p`×6, `ycjrvus`×6, `989pqwr`×6, `d3zvtyp`×5, `9f11bbt`×4, `65is5xq`×4, `4jwgytn`×4, `dhhgpsh`×4, `9vmxxbs`×4, `5goyziq`×4, `hwqt7sd`×4, `ctrgi65`×4, `am5spni`×4, `xbe6lh6`×4, `ihl81mk`×4, `71b4wk5`×4, `lw6hh8e`×3, `ki97uls`×3, `ov6stn7`×3, `4ys8t3y`×3, `9qy185c`×3
 
 ---
 
-### Mon Oct 26 15:47 · ♥22 · midjourney
+### Mon Nov 09 00:29 · ♥155 · character_sheet, midjourney
+https://x.com/aimikoda/status/2119588068088836325
+
+> As you probably know, Japanese anime often uses a technique called limited animation to save time and reduce production costs by reusing frames, holding poses and minimizing movement.  I wanted to exp
+
+**캐릭터 시트 프롬프트**
+```
+As you probably know, Japanese anime often uses a technique called limited animation to save time and reduce production costs by reusing frames, holding poses and minimizing movement.
+
+I wanted to experiment with this approach and see what I could create using AI without using any video model.
+
+Started by creating character and environment references in Midjourney. Then I gave the story to Claude and asked it to come up with a list of all the visual assets needed, along with prompts for each one.
+
+I passed that list and the reference images to Dot and asked it to generate everything, including character sheets, environment sheets, expression sprites and other assets.
+
+Once everything was ready, I gave all the generated assets back to Claude and asked it to turn the story into an anime using limited animation techniques.
+
+The whole process took a few hours.
+
+I'm pretty sure that with a little more time and some artistic touches, this approach could produce much better results.
+
+What do you think?
+```
+
+---
+
+### Sun Nov 08 01:26 · ♥13 · midjourney, video
+https://x.com/aimikoda/status/2119240077486284994
+
+> Midjourney v8.2: --sref 1687001022 --profile u83zonf --stylize 1000  Seedance 2.5 Prompt: Premium AAA cinematic action-game rendering fused with intricate dark-fantasy anime illustration and high-saku
+
+**Midjourney**
+```
+Midjourney v8.2: --sref 1687001022 --profile u83zonf --stylize 1000
+```
+
+이미지: [1](https://pbs.twimg.com/media/HWkNlWfXoAAnc65.jpg?name=orig) · [2](https://pbs.twimg.com/media/HWkNmHqXQAEf_x6.jpg?name=orig)
+
+같은 스레드에 영상 프롬프트 있음 → 이미지와 영상을 짝으로 참고
+
+---
+
+### Sun Nov 08 01:25 · ♥176 · midjourney, video
+https://x.com/aimikoda/status/2119239752222171520
+
+> Phantom Momentum  Prompt & Style Ref👇
+
+**Midjourney**
+```
+Midjourney v8.2: --sref 1687001022 --profile u83zonf --stylize 1000
+```
+
+이미지: [1](https://pbs.twimg.com/media/HWkNlWfXoAAnc65.jpg?name=orig) · [2](https://pbs.twimg.com/media/HWkNmHqXQAEf_x6.jpg?name=orig)
+
+같은 스레드에 영상 프롬프트 있음 → 이미지와 영상을 짝으로 참고
+
+---
+
+### Fri Nov 06 14:38 · ♥26 · image_model
+https://x.com/aimikoda/status/2118714598853398864
+
+> GPT Image 2.6  turn them into chibi characters and create a cute chibi animation with a white background.
+
+**이미지 모델 프롬프트**
+```
+GPT Image 2.6
+
+turn them into chibi characters and create a cute chibi animation with a white background.
+```
+
+---
+
+### Fri Nov 06 11:24 · ♥54 · image_model
+https://x.com/aimikoda/status/2118665755994546650
+
+> GPT Image 2.6 Prompt:  Create a seamless looping 1:1 2D anime kaleidoscope animation using the supplied character as the exact identity reference. Preserve the face, hairstyle, anatomy, outfit and vis
+
+**이미지 모델 프롬프트**
+```
+GPT Image 2.6 Prompt:
+
+Create a seamless looping 1:1 2D anime kaleidoscope animation using the supplied character as the exact identity reference. Preserve the face, hairstyle, anatomy, outfit and visual style.
+
+COMPOSITION: A vibrant, symmetrical kaleidoscope featuring one large central character and four surrounding copies arranged diagonally at different radial angles. Layer overlapping character portraits, decorative Japanese fans, floral motifs and colorful geometric patterns. Fill the entire frame with dense, intricate details extending beyond the edges. No circular frames.
+
+ANIMATION: Keep the overall composition stationary while all five character instances perform independent, expressive anime movements: head tilts, blinking, playful expressions, flowing hair and rhythmic gestures. Use smooth hand-drawn animation with crisp linework, cel shading and lively secondary motion.
+
+LOOP: All movements return naturally to their initial poses for a perfectly seamless infinite loop.
+
+No text, logos, subtitles or additional characters.
+```
+
+---
+
+### Wed Nov 04 04:19 · ♥421 · midjourney
+https://x.com/aimikoda/status/2117834053512474661
+
+> For those asking about the style, here's the Midjourney v8.2 blend:  --chaos 35 --sref 1308111581 --profile lw6hh8e --stylize 750  Prompt in the first image's ALT text.
+
+**Midjourney**
+```
+--chaos 35 --sref 1308111581 --profile lw6hh8e --stylize 750
+```
+
+이미지: [1](https://pbs.twimg.com/media/HWQOpIlW0AAIFXx.jpg?name=orig) · [2](https://pbs.twimg.com/media/HWQONbRWAAAwstD.jpg?name=orig) · [3](https://pbs.twimg.com/media/HWQOOfVWAAAij4d.jpg?name=orig) · [4](https://pbs.twimg.com/media/HWQOPmtXkAAvG8C.jpg?name=orig)
+
+---
+
+### Tue Nov 03 22:38 · ♥3 · midjourney
+https://x.com/aimikoda/status/2117748384874274838
+
+> created with midjourney v8.2 and grok imagine
+
+---
+
+### Sat Oct 31 23:14 · ♥22 · character_sheet, video
+https://x.com/aimikoda/status/2116670078225658330
+
+> Pika H3 Flex Prompt: References: @[char ref]: Rin, shown on a character turnaround sheet. Messy short black bob, olive-brown eyes, gold drop earrings, thin gold necklace with an oval pendant, cream ca
+
+**캐릭터 시트 프롬프트**
+```
+Pika H3 Flex Prompt:
+References:
+@[char ref]: Rin, shown on a character turnaround sheet. Messy short black bob, olive-brown eyes, gold drop earrings, thin gold necklace with an oval pendant, cream camisole slip dress, oversized off-white button shirt worn loose off the shoulders, bare feet. Take her identity, outfit, expressions, and clean anime line style; render one normal scene, never the sheet layout, its grey backdrop, or several copies of her.
+@[letterbox ref (attached image)]: the letterbox composition only: a pure white central picture area between two thick, solid black horizontal bars at the top and bottom of the 16:9 frame.
+
+Visual style: Clean 2D anime, crisp line art, soft cel shading, bright and playful. The central area is pure white, a seamless empty space with a soft floor shadow under Rin to show depth. Strong foreshortening whenever she comes close to the lens. Bouncy, elastic comedy acting with springy hair and fluttering shirt.
+
+Avoid: No subtitles. No music. No glitches, static, or VHS effects. No cuts, zooms, or camera movement. No vertical borders or picture frames.
+
+Rin, goofing around alone in an empty white space, notices she is being watched and climbs out over the letterbox toward the viewer. One continuous locked-off wide shot at eye level, no cuts, about 15 seconds. The two black bars never move, bend, flicker, or change; they behave like solid flat bars printed on the screen. At the start Rin is entirely inside the white area, behind the bars; as she comes forward, the parts of her that cross the lower bar are drawn in front of it, overlapping the black, for a pop-out illusion. Sound: soft room tone, bare footsteps, a belly-slide squeak, a tap on glass, giggles, a soft thump. No dialogue.
+
+Scene 1: Continuous, the white letterbox space.
+Shot 1 (0-15s): Wide shot, eye level, locked-off camera for the whole clip.
+From 0 to 3 seconds, Rin is small and far away in the center of the white area, full body, facing the lens. She does a silly noodle dance: floppy wobbling arms, hip wiggles, head bobbing, the loose shirt flapping.
+From 3 to 5 seconds, she spots the viewer, gasps happily, and skips straight toward the lens, growing larger. Her bare foot catches, she pitches forward and slides on her belly the rest of the way, stopping with her face just above the inner edge of the lower bar, still fully inside the white area.
+From 5 to 8 seconds, the frame break begins. Her right hand slaps down onto the lower bar and is drawn in front of the black, fingers spread over it. Her left hand follows. She pulls herself up and props both forearms on the lower bar like a windowsill, forearms and elbows in front of the black, rests her chin on her stacked hands, and grins at the lens. Behind her, inside the white area, her bare feet kick lazily in the air.
+From 8 to 11 seconds, she leans further out over the lower bar, head and shoulders now in front of the black and large in the foreground. She reaches toward the lens and taps it on
+```
+
+이미지: [1](https://pbs.twimg.com/media/HV_sDgVXUAA5RvR.png?name=orig)
+
+같은 스레드에 영상 프롬프트 있음 → 이미지와 영상을 짝으로 참고
+
+---
+
+### Sat Oct 31 23:12 · ♥411 · character_sheet, video
+https://x.com/aimikoda/status/2116669684640522413
+
+> Pika H3 Flex - Frame Break Effect  Prompt in the replies. 👇
+
+**캐릭터 시트 프롬프트**
+```
+Pika H3 Flex Prompt:
+References:
+@[char ref]: Rin, shown on a character turnaround sheet. Messy short black bob, olive-brown eyes, gold drop earrings, thin gold necklace with an oval pendant, cream camisole slip dress, oversized off-white button shirt worn loose off the shoulders, bare feet. Take her identity, outfit, expressions, and clean anime line style; render one normal scene, never the sheet layout, its grey backdrop, or several copies of her.
+@[letterbox ref (attached image)]: the letterbox composition only: a pure white central picture area between two thick, solid black horizontal bars at the top and bottom of the 16:9 frame.
+
+Visual style: Clean 2D anime, crisp line art, soft cel shading, bright and playful. The central area is pure white, a seamless empty space with a soft floor shadow under Rin to show depth. Strong foreshortening whenever she comes close to the lens. Bouncy, elastic comedy acting with springy hair and fluttering shirt.
+
+Avoid: No subtitles. No music. No glitches, static, or VHS effects. No cuts, zooms, or camera movement. No vertical borders or picture frames.
+
+Rin, goofing around alone in an empty white space, notices she is being watched and climbs out over the letterbox toward the viewer. One continuous locked-off wide shot at eye level, no cuts, about 15 seconds. The two black bars never move, bend, flicker, or change; they behave like solid flat bars printed on the screen. At the start Rin is entirely inside the white area, behind the bars; as she comes forward, the parts of her that cross the lower bar are drawn in front of it, overlapping the black, for a pop-out illusion. Sound: soft room tone, bare footsteps, a belly-slide squeak, a tap on glass, giggles, a soft thump. No dialogue.
+
+Scene 1: Continuous, the white letterbox space.
+Shot 1 (0-15s): Wide shot, eye level, locked-off camera for the whole clip.
+From 0 to 3 seconds, Rin is small and far away in the center of the white area, full body, facing the lens. She does a silly noodle dance: floppy wobbling arms, hip wiggles, head bobbing, the loose shirt flapping.
+From 3 to 5 seconds, she spots the viewer, gasps happily, and skips straight toward the lens, growing larger. Her bare foot catches, she pitches forward and slides on her belly the rest of the way, stopping with her face just above the inner edge of the lower bar, still fully inside the white area.
+From 5 to 8 seconds, the frame break begins. Her right hand slaps down onto the lower bar and is drawn in front of the black, fingers spread over it. Her left hand follows. She pulls herself up and props both forearms on the lower bar like a windowsill, forearms and elbows in front of the black, rests her chin on her stacked hands, and grins at the lens. Behind her, inside the white area, her bare feet kick lazily in the air.
+From 8 to 11 seconds, she leans further out over the lower bar, head and shoulders now in front of the black and large in the foreground. She reaches toward the lens and taps it on
+```
+
+이미지: [1](https://pbs.twimg.com/media/HV_sDgVXUAA5RvR.png?name=orig)
+
+같은 스레드에 영상 프롬프트 있음 → 이미지와 영상을 짝으로 참고
+
+---
+
+### Sat Oct 31 05:26 · ♥9 · character_sheet, video
+https://x.com/aimikoda/status/2116401291970695581
+
+> Seedance 2.5 Prompt: References: @[character reference]: Rin, shown on a character turnaround sheet. Messy short black bob, olive-brown eyes, gold drop earrings, thin gold necklace with an oval pendan
+
+**캐릭터 시트 프롬프트**
+```
+Seedance 2.5 Prompt:
+References:
+@[character reference]: Rin, shown on a character turnaround sheet. Messy short black bob, olive-brown eyes, gold drop earrings, thin gold necklace with an oval pendant, cream camisole slip dress, oversized off-white button shirt. Take her identity, outfit, expressions, and clean anime line style only; render one normal scene, never a character sheet layout, grey backdrop, or multiple copies of her.
+
+Visual style: Clean 2D anime, crisp line art, soft cel shading, cozy small bedroom with a window on screen right, a bed against the left wall, white sheets, a beige blanket, a wooden bedside table, a chair beside the bed. Light tells the time: cold blue dawn, then pale morning, then harsh golden late-morning sun.
+
+Avoid: No subtitles. No background music. No other people. Clock digits stay sharp and readable.
+
+Rin jolts awake sure she is late, finds it is only dawn and relaxes, snoozes, then wakes far too late and races to get ready. The opening is quick and drowsy, the rest frantic and packed with small gags. She sleeps in only the cream slip dress; the off-white shirt hangs on the chair until she puts it on. Phone screens appear only in close inserts. Sound: birds, phone buzz, groans, thuds, frantic footsteps, door slam, two lines. Shot list: 16 shots, about 30 seconds.
+
+Scene 1: Dawn, the bedroom in cold blue light.
+Shot 1 (0-2s): Close-up from just above the pillow, looking down at Rin's face alone; the camera jolts once. Birds chirp. Her eyes snap wide open in panic and she gasps, lifting her head off the pillow as her right hand whips the phone up into frame.
+Shot 2 (2-3s): Insert on the phone in her right hand, locked-off camera. The screen clearly reads 06:12.
+Shot 3 (3-5s): Top-down shot over the bed, locked-off camera. In only her slip dress, Rin lets out a long relieved breath, flops her head back onto the pillow, smiles, sets the phone on the bedside table, pulls the blanket up to her chin, and wriggles happily with her eyes closed. The shirt hangs on the chair.
+
+Scene 2: Later, the same bedroom in pale morning light.
+Shot 4 (5-7s): Insert on the bedside table, locked-off camera. The phone buzzes; her right hand flops onto the table, gropes, and lifts the phone. The screen clearly reads 07:15.
+Shot 5 (7-9s): Close-up from just above the pillow, her face alone; the camera slowly pushes in. One eye half open, Rin hugs the phone to her chest and burrows her face into the pillow.
+Rin's line (mumbling, drowsy): "Five more minutes..."
+Shot 6 (9-11s): Wide shot, locked-off camera, time-lapse. Rin sleeps without moving; a beam of sunlight crawls from the wall across the blanket onto her face as the room turns harsh and golden.
+
+Scene 3: Much later, the bedroom in harsh golden sun.
+Shot 7 (11-12s): Insert on the phone lying on the blanket, locked-off camera. The screen clearly reads 09:47, under a stack of missed alarm notifications.
+Shot 8 (12-14s): Extreme close-up of Rin's eyes; the camera quickly crash zooms in
+```
+
+같은 스레드에 영상 프롬프트 있음 → 이미지와 영상을 짝으로 참고
+
+---
+
+### Sat Oct 31 05:24 · ♥149 · character_sheet, video
+https://x.com/aimikoda/status/2116400902349492350
+
+> Five more minutes.  Seedance 2.5 prompt in the replies. 👇
+
+**캐릭터 시트 프롬프트**
+```
+Seedance 2.5 Prompt:
+References:
+@[character reference]: Rin, shown on a character turnaround sheet. Messy short black bob, olive-brown eyes, gold drop earrings, thin gold necklace with an oval pendant, cream camisole slip dress, oversized off-white button shirt. Take her identity, outfit, expressions, and clean anime line style only; render one normal scene, never a character sheet layout, grey backdrop, or multiple copies of her.
+
+Visual style: Clean 2D anime, crisp line art, soft cel shading, cozy small bedroom with a window on screen right, a bed against the left wall, white sheets, a beige blanket, a wooden bedside table, a chair beside the bed. Light tells the time: cold blue dawn, then pale morning, then harsh golden late-morning sun.
+
+Avoid: No subtitles. No background music. No other people. Clock digits stay sharp and readable.
+
+Rin jolts awake sure she is late, finds it is only dawn and relaxes, snoozes, then wakes far too late and races to get ready. The opening is quick and drowsy, the rest frantic and packed with small gags. She sleeps in only the cream slip dress; the off-white shirt hangs on the chair until she puts it on. Phone screens appear only in close inserts. Sound: birds, phone buzz, groans, thuds, frantic footsteps, door slam, two lines. Shot list: 16 shots, about 30 seconds.
+
+Scene 1: Dawn, the bedroom in cold blue light.
+Shot 1 (0-2s): Close-up from just above the pillow, looking down at Rin's face alone; the camera jolts once. Birds chirp. Her eyes snap wide open in panic and she gasps, lifting her head off the pillow as her right hand whips the phone up into frame.
+Shot 2 (2-3s): Insert on the phone in her right hand, locked-off camera. The screen clearly reads 06:12.
+Shot 3 (3-5s): Top-down shot over the bed, locked-off camera. In only her slip dress, Rin lets out a long relieved breath, flops her head back onto the pillow, smiles, sets the phone on the bedside table, pulls the blanket up to her chin, and wriggles happily with her eyes closed. The shirt hangs on the chair.
+
+Scene 2: Later, the same bedroom in pale morning light.
+Shot 4 (5-7s): Insert on the bedside table, locked-off camera. The phone buzzes; her right hand flops onto the table, gropes, and lifts the phone. The screen clearly reads 07:15.
+Shot 5 (7-9s): Close-up from just above the pillow, her face alone; the camera slowly pushes in. One eye half open, Rin hugs the phone to her chest and burrows her face into the pillow.
+Rin's line (mumbling, drowsy): "Five more minutes..."
+Shot 6 (9-11s): Wide shot, locked-off camera, time-lapse. Rin sleeps without moving; a beam of sunlight crawls from the wall across the blanket onto her face as the room turns harsh and golden.
+
+Scene 3: Much later, the bedroom in harsh golden sun.
+Shot 7 (11-12s): Insert on the phone lying on the blanket, locked-off camera. The screen clearly reads 09:47, under a stack of missed alarm notifications.
+Shot 8 (12-14s): Extreme close-up of Rin's eyes; the camera quickly crash zooms in
+```
+
+같은 스레드에 영상 프롬프트 있음 → 이미지와 영상을 짝으로 참고
+
+---
+
+### Thu Oct 29 15:11 · ♥129 · midjourney, video
+https://x.com/aimikoda/status/2115823751476789463
+
+> Supermarket Raid  Created with Seedance 2.5 and Midjourney v8.2
+
+같은 스레드에 영상 프롬프트 있음 → 이미지와 영상을 짝으로 참고
+
+---
+
+### Wed Oct 28 14:14 · ♥110 · midjourney, video
+https://x.com/aimikoda/status/2115447071759085663
+
+> Midjourney blend: --sref 1448908625 3123598145 387469134 3207844525 --profile 7v4i3wf --stylize 1000  Seedance 2.5 Prompt: References: @[ref1]: Yuki. Shoulder-length silver-white hair with long bangs,
+
+**Midjourney**
+```
+Midjourney blend: --sref 1448908625 3123598145 387469134 3207844525 --profile 7v4i3wf --stylize 1000
+```
+
+이미지: [1](https://pbs.twimg.com/media/HVuT1OXWsAEKp5k.jpg?name=orig) · [2](https://pbs.twimg.com/media/HVuT2RaXkAAZvq8.jpg?name=orig) · [3](https://pbs.twimg.com/media/HVuT3hvWEAAOnau.jpg?name=orig)
+
+같은 스레드에 영상 프롬프트 있음 → 이미지와 영상을 짝으로 참고
+
+---
+
+### Wed Oct 28 14:12 · ♥19418 · midjourney, video
+https://x.com/aimikoda/status/2115446648704827633
+
+> Some Silly Moves  Seedance 2.5 prompt in the replies. 👇
+
+**Midjourney**
+```
+Midjourney blend: --sref 1448908625 3123598145 387469134 3207844525 --profile 7v4i3wf --stylize 1000
+```
+
+이미지: [1](https://pbs.twimg.com/media/HVuT1OXWsAEKp5k.jpg?name=orig) · [2](https://pbs.twimg.com/media/HVuT2RaXkAAZvq8.jpg?name=orig) · [3](https://pbs.twimg.com/media/HVuT3hvWEAAOnau.jpg?name=orig)
+
+같은 스레드에 영상 프롬프트 있음 → 이미지와 영상을 짝으로 참고
+
+---
+
+### Mon Oct 26 15:47 · ♥26 · midjourney
 https://x.com/aimikoda/status/2114745768234144127
 
 > Opus 5.5 Prompt:  Create a spectacular 4:3 Jujutsu Kaisen AMV centered on Satoru Gojo, using the supplied images and music. Match the final video's duration exactly to the full soundtrack.  EDITING & 
 
 ---
 
-### Mon Oct 26 15:46 · ♥206 · midjourney
+### Mon Oct 26 15:46 · ♥229 · midjourney
 https://x.com/aimikoda/status/2114745463736082828
 
 > Satoru Gojo Edit with Claude Opus 5.5  This time, I didn't use any video footage, just images I created with Midjourney and a music file.  Prompt in the replies. 👇
 
 ---
 
-### Wed Oct 21 09:57 · ♥17 · midjourney
+### Wed Oct 21 09:57 · ♥18 · midjourney
 https://x.com/aimikoda/status/2112845747641074072
 
 > Created with Claude Opus 5.5. Base image created with Midjourney v8.2  Opus 5.5 Prompt: I want to learn how to draw the attached image by hand, in its own art style.  Create a step-by-step drawing tut
