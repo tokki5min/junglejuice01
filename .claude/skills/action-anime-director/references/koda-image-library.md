@@ -1,16 +1,100 @@
 # Kōda 이미지 프롬프트 라이브러리 (자동 생성)
 `scripts/koda_library.py`가 만든다. 직접 고치지 않는다. 원문은 연구·개인 참고용으로만 쓴다.
-- 항목 246개 / Midjourney 프롬프트 168개 / 캐릭터 시트 프롬프트 58개
+- 항목 253개 / Midjourney 프롬프트 171개 / 캐릭터 시트 프롬프트 58개
 
 ## 자주 쓰는 sref 코드
 `74117661`×12, `1448908625`×9, `387469134`×8, `2688930422`×8, `3732263062`×8, `8302900945`×8, `3123598145`×7, `3207844525`×7, `2116795492`×6, `2880399749`×5, `3115865291`×5, `1030259122`×5, `3626095821`×5, `2343335488`×5, `4107378996`×4, `1798619238`×4, `2523336497`×4, `3295658070`×4, `3999913842`×3, `5452206699`×3, `1687001022`×2, `2432028955`×2, `2004805678`×2, `2757484790`×2, `572464382`×2
 
 ## 자주 쓰는 profile 코드
-`txgf1m1`×40, `8mk73g6`×21, `kxxcnp9`×7, `7v4i3wf`×6, `oqw5d6p`×6, `ycjrvus`×6, `989pqwr`×6, `d3zvtyp`×5, `9f11bbt`×4, `65is5xq`×4, `4jwgytn`×4, `dhhgpsh`×4, `9vmxxbs`×4, `5goyziq`×4, `hwqt7sd`×4, `ctrgi65`×4, `am5spni`×4, `xbe6lh6`×4, `ihl81mk`×4, `71b4wk5`×4, `lw6hh8e`×3, `ki97uls`×3, `ov6stn7`×3, `4ys8t3y`×3, `9qy185c`×3
+`txgf1m1`×40, `8mk73g6`×21, `kxxcnp9`×7, `lw6hh8e`×6, `7v4i3wf`×6, `oqw5d6p`×6, `ycjrvus`×6, `989pqwr`×6, `ov6stn7`×5, `d3zvtyp`×5, `9f11bbt`×4, `65is5xq`×4, `4jwgytn`×4, `dhhgpsh`×4, `9vmxxbs`×4, `5goyziq`×4, `hwqt7sd`×4, `ctrgi65`×4, `am5spni`×4, `xbe6lh6`×4, `ihl81mk`×4, `71b4wk5`×4, `ki97uls`×3, `4ys8t3y`×3, `9qy185c`×3
 
 ---
 
-### Mon Nov 09 00:29 · ♥155 · character_sheet, midjourney
+### Tue Nov 17 08:55 · ♥786 · art_dump
+https://x.com/aimikoda/status/2122614564835733870
+
+> Death Knights
+
+프롬프트 비공개 — 이미지만 참고용(art dump).
+
+이미지: [1](https://pbs.twimg.com/media/HXUKmAYWwAAyXKQ.jpg?name=orig) · [2](https://pbs.twimg.com/media/HXUKmAaWYAEdqt4.jpg?name=orig) · [3](https://pbs.twimg.com/media/HXUKmAbWsAAfi_o.jpg?name=orig) · [4](https://pbs.twimg.com/media/HXUKmAbXkAAMM1C.jpg?name=orig) · [5](https://pbs.twimg.com/media/HXUKmAjXoAAIvx0.jpg?name=orig) · [6](https://pbs.twimg.com/media/HXUKmAeWwAAewWG.jpg?name=orig) · [7](https://pbs.twimg.com/media/HXUKmAYWcAAMCGw.jpg?name=orig) · [8](https://pbs.twimg.com/media/HXUKmAaXwAAioM-.jpg?name=orig) · [9](https://pbs.twimg.com/media/HXUKmAeXAAAfj9J.jpg?name=orig) · [10](https://pbs.twimg.com/media/HXUKmAbWwAAV98G.jpg?name=orig)
+
+---
+
+### Mon Nov 16 19:30 · ♥408 · art_dump
+https://x.com/aimikoda/status/2122412128225148942
+
+> Night Elves
+
+프롬프트 비공개 — 이미지만 참고용(art dump).
+
+이미지: [1](https://pbs.twimg.com/media/HXRSawzW0AAPOem.jpg?name=orig) · [2](https://pbs.twimg.com/media/HXRSawvXMAADqTo.jpg?name=orig) · [3](https://pbs.twimg.com/media/HXRSaw5W8AAZZZ7.jpg?name=orig) · [4](https://pbs.twimg.com/media/HXRSax_WIAAC7fW.jpg?name=orig) · [5](https://pbs.twimg.com/media/HXRSaw5WwAAQMxj.jpg?name=orig) · [6](https://pbs.twimg.com/media/HXRSawcXwAE5h_6.jpg?name=orig) · [7](https://pbs.twimg.com/media/HXRSaysWgAAwEMK.jpg?name=orig) · [8](https://pbs.twimg.com/media/HXRSax6WUAA1OyU.jpg?name=orig) · [9](https://pbs.twimg.com/media/HXRSawuXcAIBpL9.jpg?name=orig) · [10](https://pbs.twimg.com/media/HXRSg_UX0AADaxq.jpg?name=orig)
+
+---
+
+### Mon Nov 16 10:48 · ♥5488 · art_dump
+https://x.com/aimikoda/status/2122280743455936729
+
+> High Elves
+
+프롬프트 비공개 — 이미지만 참고용(art dump).
+
+이미지: [1](https://pbs.twimg.com/media/HXPa7MEWgAARVjG.jpg?name=orig) · [2](https://pbs.twimg.com/media/HXPa7MIWMAADplD.jpg?name=orig) · [3](https://pbs.twimg.com/media/HXPa7MRW4AA4WcK.jpg?name=orig) · [4](https://pbs.twimg.com/media/HXPa7MXWoAAm4wg.jpg?name=orig) · [5](https://pbs.twimg.com/media/HXPa7McWQAAj15S.jpg?name=orig) · [6](https://pbs.twimg.com/media/HXPa7MWXsAApRcm.jpg?name=orig) · [7](https://pbs.twimg.com/media/HXPa7MHXoAAlbiG.jpg?name=orig)
+
+---
+
+### Sun Nov 15 08:47 · ♥1396 · art_dump
+https://x.com/aimikoda/status/2121887836572172528
+
+> Runeblades
+
+프롬프트 비공개 — 이미지만 참고용(art dump).
+
+이미지: [1](https://pbs.twimg.com/media/HXJ1kbEXgAAEbjh.jpg?name=orig) · [2](https://pbs.twimg.com/media/HXJ1lE6WoAAgfJH.jpg?name=orig) · [3](https://pbs.twimg.com/media/HXJ1l0wW8AAb_HI.jpg?name=orig) · [4](https://pbs.twimg.com/media/HXJ1meHXkAA4juk.jpg?name=orig) · [5](https://pbs.twimg.com/media/HXJ1nNJWsAEWQZC.jpg?name=orig) · [6](https://pbs.twimg.com/media/HXJ1n4QWwAA6wng.jpg?name=orig) · [7](https://pbs.twimg.com/media/HXJ1oe7XYAAzoBx.jpg?name=orig) · [8](https://pbs.twimg.com/media/HXJ1pEnXIAEBQnx.jpg?name=orig) · [9](https://pbs.twimg.com/media/HXJ1ppTWAAAHoCe.jpg?name=orig) · [10](https://pbs.twimg.com/media/HXJ1qQOXoAAh_sS.jpg?name=orig)
+
+---
+
+### Sat Nov 14 08:17 · ♥177 · midjourney
+https://x.com/aimikoda/status/2121517911571419645
+
+> --sref 2380456094 --profile lw6hh8e ov6stn7
+
+**Midjourney**
+```
+--sref 2380456094 --profile lw6hh8e ov6stn7
+```
+
+---
+
+### Fri Nov 13 07:37 · ♥46 · midjourney
+https://x.com/aimikoda/status/2121145294192525433
+
+> Midjourney blend dump.  --sref 3083042043 --profile lw6hh8e ov6stn7 --stylize 750
+
+**Midjourney**
+```
+--sref 3083042043 --profile lw6hh8e ov6stn7 --stylize 750
+```
+
+이미지: [1](https://pbs.twimg.com/media/HW_SOh1X0AAsEcL.jpg?name=orig) · [2](https://pbs.twimg.com/media/HW_SOh_WEAArnEf.jpg?name=orig) · [3](https://pbs.twimg.com/media/HW_SOh1XIAAGGKz.jpg?name=orig) · [4](https://pbs.twimg.com/media/HW_SOjIXMAAxYyR.jpg?name=orig) · [5](https://pbs.twimg.com/media/HW_SOhuW8AA_5q1.jpg?name=orig) · [6](https://pbs.twimg.com/media/HW_SOhxWcAAd6gk.jpg?name=orig) · [7](https://pbs.twimg.com/media/HW_SOh3WIAEwRQK.jpg?name=orig) · [8](https://pbs.twimg.com/media/HW_SOh5WkAAkCU-.jpg?name=orig) · [9](https://pbs.twimg.com/media/HW_SOjKWoAAkZuR.jpg?name=orig) · [10](https://pbs.twimg.com/media/HW_SOh5WkAEFmV6.jpg?name=orig) · [11](https://pbs.twimg.com/media/HW_SOjSW4AAUiUx.jpg?name=orig) · [12](https://pbs.twimg.com/media/HW_SOjLWMAAK3IU.jpg?name=orig) · [13](https://pbs.twimg.com/media/HW_SOh0XgAA098j.jpg?name=orig) · [14](https://pbs.twimg.com/media/HW_SOh1W0AAMrlZ.jpg?name=orig) · [15](https://pbs.twimg.com/media/HW_SOh6WMAAwH8P.jpg?name=orig) · [16](https://pbs.twimg.com/media/HW_SOh-X0AANy2D.jpg?name=orig) · [17](https://pbs.twimg.com/media/HW_SOh7XAAA4ZtR.jpg?name=orig) · [18](https://pbs.twimg.com/media/HW_SOh6XQAAfSCK.jpg?name=orig) · [19](https://pbs.twimg.com/media/HW_SOjQXAAAiw93.jpg?name=orig) · [20](https://pbs.twimg.com/media/HW_SOh7WEAAAaQz.jpg?name=orig)
+
+---
+
+### Thu Nov 12 18:04 · ♥55 · midjourney
+https://x.com/aimikoda/status/2120940695355641946
+
+> Expressive hand-drawn anime:  --sref 2102218221 --profile lw6hh8e --stylize 750
+
+**Midjourney**
+```
+--sref 2102218221 --profile lw6hh8e --stylize 750
+```
+
+이미지: [1](https://pbs.twimg.com/media/HW-AwsCW8AAfpRe.jpg?name=orig) · [2](https://pbs.twimg.com/media/HW-AzuRWoAA-X20.jpg?name=orig)
+
+---
+
+### Mon Nov 09 00:29 · ♥168 · character_sheet, midjourney
 https://x.com/aimikoda/status/2119588068088836325
 
 > As you probably know, Japanese anime often uses a technique called limited animation to save time and reduce production costs by reusing frames, holding poses and minimizing movement.  I wanted to exp
@@ -36,7 +120,7 @@ What do you think?
 
 ---
 
-### Sun Nov 08 01:26 · ♥13 · midjourney, video
+### Sun Nov 08 01:26 · ♥15 · midjourney, video
 https://x.com/aimikoda/status/2119240077486284994
 
 > Midjourney v8.2: --sref 1687001022 --profile u83zonf --stylize 1000  Seedance 2.5 Prompt: Premium AAA cinematic action-game rendering fused with intricate dark-fantasy anime illustration and high-saku
@@ -52,7 +136,7 @@ Midjourney v8.2: --sref 1687001022 --profile u83zonf --stylize 1000
 
 ---
 
-### Sun Nov 08 01:25 · ♥176 · midjourney, video
+### Sun Nov 08 01:25 · ♥184 · midjourney, video
 https://x.com/aimikoda/status/2119239752222171520
 
 > Phantom Momentum  Prompt & Style Ref👇
@@ -68,7 +152,7 @@ Midjourney v8.2: --sref 1687001022 --profile u83zonf --stylize 1000
 
 ---
 
-### Fri Nov 06 14:38 · ♥26 · image_model
+### Fri Nov 06 14:38 · ♥27 · image_model
 https://x.com/aimikoda/status/2118714598853398864
 
 > GPT Image 2.6  turn them into chibi characters and create a cute chibi animation with a white background.
@@ -104,7 +188,7 @@ No text, logos, subtitles or additional characters.
 
 ---
 
-### Wed Nov 04 04:19 · ♥421 · midjourney
+### Wed Nov 04 04:19 · ♥420 · midjourney
 https://x.com/aimikoda/status/2117834053512474661
 
 > For those asking about the style, here's the Midjourney v8.2 blend:  --chaos 35 --sref 1308111581 --profile lw6hh8e --stylize 750  Prompt in the first image's ALT text.
@@ -157,7 +241,7 @@ From 8 to 11 seconds, she leans further out over the lower bar, head and shoulde
 
 ---
 
-### Sat Oct 31 23:12 · ♥411 · character_sheet, video
+### Sat Oct 31 23:12 · ♥414 · character_sheet, video
 https://x.com/aimikoda/status/2116669684640522413
 
 > Pika H3 Flex - Frame Break Effect  Prompt in the replies. 👇
@@ -226,7 +310,7 @@ Shot 8 (12-14s): Extreme close-up of Rin's eyes; the camera quickly crash zooms 
 
 ---
 
-### Sat Oct 31 05:24 · ♥149 · character_sheet, video
+### Sat Oct 31 05:24 · ♥150 · character_sheet, video
 https://x.com/aimikoda/status/2116400902349492350
 
 > Five more minutes.  Seedance 2.5 prompt in the replies. 👇
@@ -272,7 +356,7 @@ https://x.com/aimikoda/status/2115823751476789463
 
 ---
 
-### Wed Oct 28 14:14 · ♥110 · midjourney, video
+### Wed Oct 28 14:14 · ♥108 · midjourney, video
 https://x.com/aimikoda/status/2115447071759085663
 
 > Midjourney blend: --sref 1448908625 3123598145 387469134 3207844525 --profile 7v4i3wf --stylize 1000  Seedance 2.5 Prompt: References: @[ref1]: Yuki. Shoulder-length silver-white hair with long bangs,
@@ -288,7 +372,7 @@ Midjourney blend: --sref 1448908625 3123598145 387469134 3207844525 --profile 7v
 
 ---
 
-### Wed Oct 28 14:12 · ♥19418 · midjourney, video
+### Wed Oct 28 14:12 · ♥19367 · midjourney, video
 https://x.com/aimikoda/status/2115446648704827633
 
 > Some Silly Moves  Seedance 2.5 prompt in the replies. 👇
@@ -311,7 +395,7 @@ https://x.com/aimikoda/status/2114745768234144127
 
 ---
 
-### Mon Oct 26 15:46 · ♥229 · midjourney
+### Mon Oct 26 15:46 · ♥231 · midjourney
 https://x.com/aimikoda/status/2114745463736082828
 
 > Satoru Gojo Edit with Claude Opus 5.5  This time, I didn't use any video footage, just images I created with Midjourney and a music file.  Prompt in the replies. 👇

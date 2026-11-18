@@ -64,3 +64,11 @@
 - Midjourney: 새 코드 3개(profile 7v4i3wf, lw6hh8e + chaos 35, u83zonf)를 기록했다. 11-10에는 MiniMax H3 Image 4K 프롬프트 4개를 참조 없이 한 화풍으로 공개했다.
 - 라이브러리: 항목 232개 → 246개(이번에도 `-X utf8`, 수집 약 2분). 10-27 이후 후반 편집·코드 게시물(스트링 아트, 글리치 타이틀, 고양이 게임 등)은 영상 프롬프트가 아니라 제외했다.
 - 다음 연구: 블록아웃 영상을 소스 영상과 함께 Seedance에 넣는 방법(11-09·10, 프롬프트 비공개), 11-04 "Playing with sabers" 시리즈 프롬프트 공개 여부를 확인한다.
+
+## 2026-11-18 — 정기 연구 (Kōda 11-11 ~ 11-17)
+- 수집: 게시물 113개(10-21 09:57 ~ 11-17 12:37 UTC), 이 중 11-10 18:00 이후 32개. 새 프롬프트 스레드는 Seedance 2.5 영상 2개(11-15 "Sunday duel" 30초 다단계 검투, 11-16 "Eternal Darkness" 30초 20샷 보스전), MiniMax H3 Image 3개(11-11 만화 페이지·코믹스 파라메트릭 템플릿, 11-13 30컷 포즈 몽타주 2종), Claude Fable 2개(11-13 OP/MV 편집 프롬프트, 11-14 이미지→픽셀아트 애니 페이지)다.
+- 새 기법: 단계 머리글(PHASE I~FINAL PHASE)로 쓰는 다단계 승격 검투와 두 사람 색 정체성, 샷마다 `Ends with ...` 종료 상태 + 결정적 접촉에만 반전색 1프레임, 사람 크기 무기를 거대 적에 맞출 때의 이중 스케일 표기("as tall as the Warrior, ankle-high to the Golem"), 변신을 밴드 단위로 단계화하고 Constants에 시점을 남기는 회계, "No subtitles. No music. No bgm. No score." 못, 카메라 없이 포즈만 갈아 끼우는 30컷 몽타주. SKILL.md §4에 레시피 세 줄, §4-1에 파라메트릭 이미지 템플릿 문단을 넣었다.
+- 이미지 아트 시리즈(11-15~11-17, 프롬프트 비공개): Runeblades / High Elves / Night Elves / Death Knights / Wrath of the Frostborn(52초 16:9 영상). 세로 2:3, 검은 배경 + 단색 광휘, 중앙 축에 세운 장식 무기, 얇은 림라이트가 공통 화풍이고 Night Elves(청람 달빛)·Death Knights(흑철+적열)·High Elves(무채색 잉크)·Wrath(보라 피부 엘프 얼굴 클로즈업, 시안 눈)로 팔레트만 갈아 끼운 한 세트다. 프롬프트가 없어 수집 스크립트가 놓치던 유형이라 `koda_library.py`에 `art_dump` 분류(제목 한 줄 + 사진 4장 이상 + 스레드 없음)를 추가해 이미지 링크만 라이브러리에 남긴다.
+- Midjourney: 11-12 `--sref 2102218221 --profile lw6hh8e --stylize 750`(손그림 애니 감성), 11-13 `--sref 3083042043 --profile lw6hh8e ov6stn7 --stylize 750`(블렌드, profile 두 개), 11-14 `--sref 2380456094 --profile lw6hh8e ov6stn7`(stylize 생략). 10-28~11-10에 이어 `lw6hh8e` + `ov6stn7` 조합이 기본값이 됐다.
+- 라이브러리: 항목 246개 → 253개(art_dump 4개 포함), Midjourney 프롬프트 168 → 171개(`-X utf8`, 수집 약 2분). 11-11 "Fists of Fur", 11-12 "Zan - Episode 2"·모델 비교 영상은 프롬프트가 없어 제외했다.
+- 다음 연구: 11-17 "Wrath of the Frostborn" 프롬프트 공개 여부, 11-11 만화 템플릿으로 뽑은 실제 페이지 예시의 파라미터 값, 11-13 OP/MV 워크플로에서 Fable 모델 버전 표기(5.2 Medium) 확인.

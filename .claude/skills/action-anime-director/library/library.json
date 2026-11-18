@@ -7822,7 +7822,7 @@
   "id": "2114745463736082828",
   "url": "https://x.com/aimikoda/status/2114745463736082828",
   "date": "Mon Oct 26 15:46:23 +0000 2026",
-  "likes": 229,
+  "likes": 231,
   "kinds": [
    "midjourney"
   ],
@@ -8105,7 +8105,7 @@
   "id": "2119588068088836325",
   "url": "https://x.com/aimikoda/status/2119588068088836325",
   "date": "Mon Nov 09 00:29:10 +0000 2026",
-  "likes": 155,
+  "likes": 168,
   "kinds": [
    "character_sheet",
    "midjourney"
@@ -8126,7 +8126,7 @@
   "id": "2119239752222171520",
   "url": "https://x.com/aimikoda/status/2119239752222171520",
   "date": "Sun Nov 08 01:25:05 +0000 2026",
-  "likes": 176,
+  "likes": 184,
   "kinds": [
    "midjourney",
    "video"
@@ -8165,7 +8165,7 @@
   "id": "2119240077486284994",
   "url": "https://x.com/aimikoda/status/2119240077486284994",
   "date": "Sun Nov 08 01:26:22 +0000 2026",
-  "likes": 13,
+  "likes": 15,
   "kinds": [
    "midjourney",
    "video"
@@ -8204,7 +8204,7 @@
   "id": "2118714598853398864",
   "url": "https://x.com/aimikoda/status/2118714598853398864",
   "date": "Fri Nov 06 14:38:18 +0000 2026",
-  "likes": 26,
+  "likes": 27,
   "kinds": [
    "image_model"
   ],
@@ -8244,7 +8244,7 @@
   "id": "2117834053512474661",
   "url": "https://x.com/aimikoda/status/2117834053512474661",
   "date": "Wed Nov 04 04:19:20 +0000 2026",
-  "likes": 421,
+  "likes": 420,
   "kinds": [
    "midjourney"
   ],
@@ -8309,7 +8309,7 @@
   "id": "2116669684640522413",
   "url": "https://x.com/aimikoda/status/2116669684640522413",
   "date": "Sat Oct 31 23:12:33 +0000 2026",
-  "likes": 411,
+  "likes": 414,
   "kinds": [
    "character_sheet",
    "video"
@@ -8363,7 +8363,7 @@
   "id": "2116400902349492350",
   "url": "https://x.com/aimikoda/status/2116400902349492350",
   "date": "Sat Oct 31 05:24:30 +0000 2026",
-  "likes": 149,
+  "likes": 150,
   "kinds": [
    "character_sheet",
    "video"
@@ -8424,7 +8424,7 @@
   "id": "2115446648704827633",
   "url": "https://x.com/aimikoda/status/2115446648704827633",
   "date": "Wed Oct 28 14:12:38 +0000 2026",
-  "likes": 19418,
+  "likes": 19367,
   "kinds": [
    "midjourney",
    "video"
@@ -8468,7 +8468,7 @@
   "id": "2115447071759085663",
   "url": "https://x.com/aimikoda/status/2115447071759085663",
   "date": "Wed Oct 28 14:14:19 +0000 2026",
-  "likes": 110,
+  "likes": 108,
   "kinds": [
    "midjourney",
    "video"
@@ -8507,5 +8507,446 @@
    "https://pbs.twimg.com/amplify_video_thumb/2115446474544762880/img/okh8e9ut90Mc-CcN.jpg"
   ],
   "summary": "Midjourney blend: --sref 1448908625 3123598145 387469134 3207844525 --profile 7v4i3wf --stylize 1000\n\nSeedance 2.5 Prompt:\nReferences:\n@[ref1]: Yuki. Shoulder-length silver-white hair with long bangs,"
+ },
+ "2121517911571419645": {
+  "id": "2121517911571419645",
+  "url": "https://x.com/aimikoda/status/2121517911571419645",
+  "date": "Sat Nov 14 08:17:40 +0000 2026",
+  "likes": 177,
+  "kinds": [
+   "midjourney"
+  ],
+  "midjourney_prompts": [
+   {
+    "text": "--sref 2380456094 --profile lw6hh8e ov6stn7",
+    "params": {
+     "sref": "2380456094",
+     "profile": "lw6hh8e ov6stn7"
+    }
+   }
+  ],
+  "sheet_prompts": [],
+  "image_model_prompts": [],
+  "paired_video_prompt": false,
+  "images": [],
+  "video_thumbs": [
+   "https://pbs.twimg.com/amplify_video_thumb/2121517721477132288/img/BfDkrgG1dWTwASES.jpg"
+  ],
+  "summary": "--sref 2380456094 --profile lw6hh8e ov6stn7"
+ },
+ "2121145294192525433": {
+  "id": "2121145294192525433",
+  "url": "https://x.com/aimikoda/status/2121145294192525433",
+  "date": "Fri Nov 13 07:37:01 +0000 2026",
+  "likes": 46,
+  "kinds": [
+   "midjourney"
+  ],
+  "midjourney_prompts": [
+   {
+    "text": "--sref 3083042043 --profile lw6hh8e ov6stn7 --stylize 750",
+    "params": {
+     "sref": "3083042043",
+     "profile": "lw6hh8e ov6stn7",
+     "stylize": "750"
+    }
+   }
+  ],
+  "sheet_prompts": [],
+  "image_model_prompts": [],
+  "paired_video_prompt": false,
+  "images": [
+   {
+    "url": "https://pbs.twimg.com/media/HW_SOh1X0AAsEcL.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HW_SOh_WEAArnEf.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HW_SOh1XIAAGGKz.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HW_SOjIXMAAxYyR.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HW_SOhuW8AA_5q1.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HW_SOhxWcAAd6gk.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HW_SOh3WIAEwRQK.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HW_SOh5WkAAkCU-.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HW_SOjKWoAAkZuR.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HW_SOh5WkAEFmV6.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HW_SOjSW4AAUiUx.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HW_SOjLWMAAK3IU.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HW_SOh0XgAA098j.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HW_SOh1W0AAMrlZ.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HW_SOh6WMAAwH8P.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HW_SOh-X0AANy2D.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HW_SOh7XAAA4ZtR.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HW_SOh6XQAAfSCK.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HW_SOjQXAAAiw93.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HW_SOh7WEAAAaQz.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   }
+  ],
+  "video_thumbs": [],
+  "summary": "Midjourney blend dump.\n\n--sref 3083042043 --profile lw6hh8e ov6stn7 --stylize 750"
+ },
+ "2120940695355641946": {
+  "id": "2120940695355641946",
+  "url": "https://x.com/aimikoda/status/2120940695355641946",
+  "date": "Thu Nov 12 18:04:01 +0000 2026",
+  "likes": 55,
+  "kinds": [
+   "midjourney"
+  ],
+  "midjourney_prompts": [
+   {
+    "text": "--sref 2102218221 --profile lw6hh8e --stylize 750",
+    "params": {
+     "sref": "2102218221",
+     "profile": "lw6hh8e",
+     "stylize": "750"
+    }
+   }
+  ],
+  "sheet_prompts": [],
+  "image_model_prompts": [],
+  "paired_video_prompt": false,
+  "images": [
+   {
+    "url": "https://pbs.twimg.com/media/HW-AwsCW8AAfpRe.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HW-AzuRWoAA-X20.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   }
+  ],
+  "video_thumbs": [],
+  "summary": "Expressive hand-drawn anime:\n\n--sref 2102218221 --profile lw6hh8e --stylize 750"
+ },
+ "2122614564835733870": {
+  "id": "2122614564835733870",
+  "url": "https://x.com/aimikoda/status/2122614564835733870",
+  "date": "Tue Nov 17 08:55:23 +0000 2026",
+  "likes": 786,
+  "kinds": [
+   "art_dump"
+  ],
+  "midjourney_prompts": [],
+  "sheet_prompts": [],
+  "image_model_prompts": [],
+  "paired_video_prompt": false,
+  "images": [
+   {
+    "url": "https://pbs.twimg.com/media/HXUKmAYWwAAyXKQ.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXUKmAaWYAEdqt4.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXUKmAbWsAAfi_o.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXUKmAbXkAAMM1C.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXUKmAjXoAAIvx0.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXUKmAeWwAAewWG.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXUKmAYWcAAMCGw.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXUKmAaXwAAioM-.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXUKmAeXAAAfj9J.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXUKmAbWwAAV98G.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   }
+  ],
+  "video_thumbs": [],
+  "summary": "Death Knights"
+ },
+ "2122412128225148942": {
+  "id": "2122412128225148942",
+  "url": "https://x.com/aimikoda/status/2122412128225148942",
+  "date": "Mon Nov 16 19:30:58 +0000 2026",
+  "likes": 408,
+  "kinds": [
+   "art_dump"
+  ],
+  "midjourney_prompts": [],
+  "sheet_prompts": [],
+  "image_model_prompts": [],
+  "paired_video_prompt": false,
+  "images": [
+   {
+    "url": "https://pbs.twimg.com/media/HXRSawzW0AAPOem.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXRSawvXMAADqTo.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXRSaw5W8AAZZZ7.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXRSax_WIAAC7fW.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXRSaw5WwAAQMxj.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXRSawcXwAE5h_6.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXRSaysWgAAwEMK.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXRSax6WUAA1OyU.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXRSawuXcAIBpL9.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXRSg_UX0AADaxq.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   }
+  ],
+  "video_thumbs": [],
+  "summary": "Night Elves"
+ },
+ "2122280743455936729": {
+  "id": "2122280743455936729",
+  "url": "https://x.com/aimikoda/status/2122280743455936729",
+  "date": "Mon Nov 16 10:48:53 +0000 2026",
+  "likes": 5488,
+  "kinds": [
+   "art_dump"
+  ],
+  "midjourney_prompts": [],
+  "sheet_prompts": [],
+  "image_model_prompts": [],
+  "paired_video_prompt": false,
+  "images": [
+   {
+    "url": "https://pbs.twimg.com/media/HXPa7MEWgAARVjG.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXPa7MIWMAADplD.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXPa7MRW4AA4WcK.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXPa7MXWoAAm4wg.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXPa7McWQAAj15S.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXPa7MWXsAApRcm.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXPa7MHXoAAlbiG.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   }
+  ],
+  "video_thumbs": [],
+  "summary": "High Elves"
+ },
+ "2121887836572172528": {
+  "id": "2121887836572172528",
+  "url": "https://x.com/aimikoda/status/2121887836572172528",
+  "date": "Sun Nov 15 08:47:37 +0000 2026",
+  "likes": 1396,
+  "kinds": [
+   "art_dump"
+  ],
+  "midjourney_prompts": [],
+  "sheet_prompts": [],
+  "image_model_prompts": [],
+  "paired_video_prompt": false,
+  "images": [
+   {
+    "url": "https://pbs.twimg.com/media/HXJ1kbEXgAAEbjh.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXJ1lE6WoAAgfJH.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXJ1l0wW8AAb_HI.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXJ1meHXkAA4juk.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXJ1nNJWsAEWQZC.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXJ1n4QWwAA6wng.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXJ1oe7XYAAzoBx.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXJ1pEnXIAEBQnx.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXJ1ppTWAAAHoCe.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   },
+   {
+    "url": "https://pbs.twimg.com/media/HXJ1qQOXoAAh_sS.jpg?name=orig",
+    "w": 768,
+    "h": 1536
+   }
+  ],
+  "video_thumbs": [],
+  "summary": "Runeblades"
  }
 }

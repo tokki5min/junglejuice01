@@ -59,9 +59,13 @@ for p in json.load(open(posts_path)):
     blocks = [{"id": p["id"], "text": p["text"], "media": p.get("media") or []}] + p.get("thread", [])
     joined = "\n\n".join(b["text"] for b in blocks)
     kinds = sorted({k for b in blocks for k in classify(b["text"])})
-    if not ({"midjourney", "character_sheet", "image_model"} & set(kinds)):
-        continue
     images = [m for b in blocks for m in (b.get("media") or []) if isinstance(m, dict) and m.get("type") == "photo"]
+    # image-only art dump: a title-like post with several stills and no published prompt.
+    # Kept as reference images (kinds=["art_dump"]), never as source text.
+    if not kinds and len(images) >= 4 and len(p["text"].strip()) <= 48 and not p.get("thread"):
+        kinds = ["art_dump"]
+    if not ({"midjourney", "character_sheet", "image_model", "art_dump"} & set(kinds)):
+        continue
     videos = [m for b in blocks for m in (b.get("media") or []) if isinstance(m, dict) and m.get("type") in ("video", "gif")]
     entry = {
         "id": p["id"], "url": p["url"], "date": p.get("created_at"), "likes": p.get("likes"),
@@ -107,6 +111,8 @@ for e in entries:
     for ip in e["image_model_prompts"][:2]:
         if ip not in e["sheet_prompts"]:
             L.append(f"\n**이미지 모델 프롬프트**\n```\n{ip[:2000]}\n```\n")
+    if e["kinds"] == ["art_dump"]:
+        L.append("\n프롬프트 비공개 — 이미지만 참고용(art dump).\n")
     if e["images"]:
         L.append("\n이미지: " + " · ".join(f"[{i+1}]({im['url']})" + (f" (로컬 `{im['local']}`)" if im.get("local") else "") for i, im in enumerate(e["images"])) + "\n")
     if e["paired_video_prompt"]:
