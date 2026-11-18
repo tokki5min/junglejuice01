@@ -106,6 +106,9 @@ LOCKS            무기·손·인원 수·의상 상태·씬 간 연속성. 각 
 - **샌데비스탄 슬로 + 잔상·도스테 무한 줌(코다 10-20·10-24)**: 슬로 구간은 장면 머리에 "extreme slow motion, cooler desaturated, dust and water drops hang almost still"로 열고 잔상은 "five or six separate see-through copies of her whole body, each frozen in an earlier pose... distinct copies, not speed lines"로 쓴다. 무한 줌은 세계당 시간을 못박고("exactly three seconds per world") 마지막 세계가 첫 세계를 품어 루프시킨다. 상세는 phrasebook "10-13 ~ 10-27 추가분".
 - **장소 전환 격투·초단타 충돌(코다 11-01·11-04)**: 24샷 30초 격투는 장소 3곳을 `白闪硬切`(흰 번쩍 하드 컷)로 넘기고 `切入时战斗已在新场地中继续`(들어갈 때 이미 싸움 중)로 쓴다. 능력(그림자 잠수 등)은 장소 광원 규칙과 짝으로 쓰고, 샷마다 무술 기술 하나 + `切于 …`로 컷 동작 단계를 지정한다. 28샷 충돌은 0.35~2초 마이크로 샷으로 서로 눈·손·발을 번갈아 쌓은 뒤, 폭발 구간 5샷은 인물·실루엣 없이 환경만 발전시키고(`任何人物、肢体和人形剪影均不入画`) 충돌 지점의 방사형 균열을 같은 중심으로 남긴다.
 - **폰 셀카 시점 코미디·상태 회계(코다 10-28·10-30)**: `Shot as a phone front camera video: handheld, restless, constantly bobbing and tilting with whoever holds it`로 열고 폰을 뺏는 동작·떨어지는 순간을 컷 지점으로 쓴다. 매 샷 손·옷·소품 상태를 다시 적는다(`arrives empty-handed`, `strap not yet on her shoulder`, `mouth empty`). 대사는 `Name's line (delivery): "..."` + `Cut on the end of her line.`, 말 안 하는 인물은 `stays silent, lips pressed shut`로 적는다.
+- **다단계 보스전 승격(코다 11-15)**: 30초 검투는 서두 한 단락으로 "Multi-phase combat escalation"을 선언하고, 그 아래 `PHASE I: AWAKENING` / `PHASE II: ASCENSION` / `PHASE III: ECLIPSE BREAK` / `FINAL PHASE: GODSLAYER` 단계 머리글마다 한 단락씩 쓴다. 단계마다 기법이 승격하고(검술 → 초자연 변형 → 공중 교환 → 결정타), 두 사람의 능력 색을 따로 고정한다(보라 결정 vs 주홍 영화). 단계 전환에만 타임램프를 허용하고, 마지막은 "A single sharp impact frame reveals both blades crossing ... before the entire battlefield disappears into white light."로 끝낸다.
+- **샷별 종료 상태 + 무기 이중 스케일(코다 11-16)**: 20샷 30초는 샷마다 `Ends with ...`로 마지막 프레임을 못박고, 결정적 접촉에만 "one inverted-color frame"을 넣는다. 사람 크기 무기를 거대 적과 싸우게 할 때는 "exactly as tall as the Warrior, reaching only ankle height on the Golem"처럼 두 기준을 함께 적고, 변신은 색을 밴드 단위로 갈아 끼우듯 단계화한 뒤 Constants에 시점을 남긴다. 음악·자막을 빼려면 "No subtitles. No music. No bgm. No score."를 따로 못박고 효과음·목소리만 적는다.
+- **카메라 없는 30컷 포즈 몽타주(코다 11-13)**: OP/MV는 "Exactly 30 shots with rapid hard cuts. The same character poses directly for the camera ... Each cut reveals a distinct pose already in place, immediately readable."로 열고 Shot 1~30을 앵글+포즈+표정 한 줄씩 나열한다. 컷 사이에 동작을 잇지 않고, 정지 포즈만 갈아 끼운다(코미디판은 표정·자세를 과장). 비트 싱크·키네틱 타이포·픽셀아트 댄스는 편집 단계로 분리한다.
 - **잔상 되감기 / 충전 후 방출 / 즉발 빔** 문구는 phrasebook 참조.
 - **긴 단편 파이프라인(코다)**: 전체 이야기를 30초 480p로 먼저 테스트 → 프레임 캡처로 캐릭터 시트·빈 배경 플레이트 → 3개 프롬프트로 분할 → 깨진 10초만 재생성 → 이전 결과 프레임을 다음 구간 레퍼런스로.
 
@@ -119,7 +122,9 @@ LOCKS            무기·손·인원 수·의상 상태·씬 간 연속성. 각 
 5. **장면별 레퍼런스:** 캐릭터 크기가 흔들리면, 여러 캐릭터를 한 장에 넣기보다 장면별 레퍼런스 프레임을 따로 만든다. 앞서 생성한 영상의 프레임을 다음 구간 레퍼런스로 쓰는 것도 좋다.
 6. **무기·의상 상태:** 무기를 잃는 장면처럼 상태가 바뀌는 장면에는, 그 상태에 맞는 레퍼런스(예: 무기 없는 버전)를 따로 뽑는다.
 
-라이브러리 갱신: `python3 -I scripts/koda_scrape.py <posts.json> 5` 다음에 `python3 -I scripts/koda_library.py <posts.json> library`를 실행한다. `--download`를 붙이면 이미지를 `library/images/`에 저장한다. 이 폴더는 git에 올리지 않는다(개인 참고용).
+라이브러리 갱신: `python3 -I scripts/koda_scrape.py <posts.json> 5` 다음에 `python3 -I scripts/koda_library.py <posts.json> library`를 실행한다. `--download`를 붙이면 이미지를 `library/images/`에 저장한다. 이 폴더는 git에 올리지 않는다(개인 참고용). 프롬프트 없이 제목 한 줄 + 사진 4장 이상만 올라온 아트 시리즈는 `art_dump`로 들어가 이미지 링크만 남는다(예: Night Elves, Death Knights).
+
+이미지 페이지를 대량으로 뽑을 때는 코다의 파라메트릭 템플릿을 쓴다(11-11, MiniMax H3 Image): `TOPIC / CHARACTERS / GENRE / PANEL_COUNT / PAGE_LAYOUT / READING_DIRECTION / TONE_STYLE / ART_STYLE / MOOD / NARRATION_MODE / TEXT_LANGUAGE / SFX / SIGNATURE` 변수 블록 + 번호 지시. 핵심은 "give the key moment the largest panel", 전 칸에서 같은 인물 비율·머리·의상 유지, 말풍선은 말·외침·생각·내레이션을 모양으로 구분, "no garbled or pseudo-text"다.
 
 ## 5. 결과 진단표
 
